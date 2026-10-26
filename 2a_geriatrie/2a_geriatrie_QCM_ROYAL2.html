@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCM : Gériatrie - Révisions</title>
+    <!-- Lien vers le fichier CSS externe -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <a href="https://mjofrance.github.io/Orthophonie/" class="home-link">Retour à l'accueil</a>
+        <h1>QCM : Gériatrie - Révisions</h1>
+
+        <h2>Exercice : Questions à Choix Multiples</h2>
+
+        <!-- Question 1 -->
+        <div class="question">
+            <h3>1. À propos de la fragilité :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Tous les sujets de plus de 75 ans sont fragiles</div>
+                <div class="option" onclick="toggleSelection(this)">B. La diminution de la vitesse de marche est un marqueur de fragilité</div>
+                <div class="option" onclick="toggleSelection(this)">C. Un score de Fried supérieur à 3 évoque fragilité</div>
+                <div class="option" onclick="toggleSelection(this)">D. La fragilité est irréversible</div>
+                <div class="option" onclick="toggleSelection(this)">E. La fragilité correspond à la diminution des réserves fonctionnelles</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(1, ['B', 'C', 'E'])">Valider</button>
+            <div class="explanation" id="explanation1">
+                <div class="result">Bonne(s) réponse(s) : B, C, E</div>
+                <p>La fragilité se caractérise par une diminution des réserves fonctionnelles et adaptatives de l'organisme. Un score de Fried ≥ 3 définit le sujet fragile et la diminution de la vitesse de marche en fait partie. La fragilité est un état potentiellement réversible (contrairement à la dépendance installée) et ne touche pas systématiquement toutes les personnes de plus de 75 ans.</p>
+            </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="question">
+            <h3>2. Quels sont les items évalués par l'ADL (Activités de la Vie Quotidienne) :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Continence</div>
+                <div class="option" onclick="toggleSelection(this)">B. Faire ses courses</div>
+                <div class="option" onclick="toggleSelection(this)">C. Se déplacer en transport</div>
+                <div class="option" onclick="toggleSelection(this)">D. Assurer son hygiène</div>
+                <div class="option" onclick="toggleSelection(this)">E. Manger</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(2, ['A', 'D', 'E'])">Valider</button>
+            <div class="explanation" id="explanation2">
+                <div class="result">Bonne(s) réponse(s) : A, D, E</div>
+                <p>L'échelle ADL (Katz) évalue les soins de base : hygiène corporelle, habillage, aller aux toilettes, locomotion/transferts, continence et alimentation. Faire ses courses et utiliser les transports relèvent des activités instrumentales (IADL).</p>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question">
+            <h3>3. Quels sont les items évalués par l'IADL (Activités Instrumentales de la Vie Quotidienne) :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Faire la vaisselle</div>
+                <div class="option" onclick="toggleSelection(this)">B. Faire le ménage</div>
+                <div class="option" onclick="toggleSelection(this)">C. Utiliser un téléphone</div>
+                <div class="option" onclick="toggleSelection(this)">D. S'occuper de son jardin</div>
+                <div class="option" onclick="toggleSelection(this)">E. Garder ses petits-enfants</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(3, ['B', 'C'])">Valider</button>
+            <div class="explanation" id="explanation3">
+                <div class="result">Bonne(s) réponse(s) : B, C</div>
+                <p>L'échelle de Lawton (IADL) évalue l'aptitude à utiliser le téléphone, faire les courses, préparer les repas, entretenir le ménage, faire la lessive, utiliser les moyens de transport, prendre ses médicaments et gérer son budget.</p>
+            </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="question">
+            <h3>4. Concernant la communication avec le sujet âgé :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Il faut systématiquement parler fort</div>
+                <div class="option" onclick="toggleSelection(this)">B. Le langage non verbal est important</div>
+                <div class="option" onclick="toggleSelection(this)">C. Parler lentement avec un vocabulaire enfantin permet une meilleure compréhension</div>
+                <div class="option" onclick="toggleSelection(this)">D. Si un aidant est présent, il faut s'adresser uniquement à lui</div>
+                <div class="option" onclick="toggleSelection(this)">E. Les outils numériques peuvent faciliter la communication</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(4, ['B', 'E'])">Valider</button>
+            <div class="explanation" id="explanation4">
+                <div class="result">Bonne(s) réponse(s) : B, E</div>
+                <p>Le langage non verbal et les supports numériques/visuels soutiennent les échanges. Le vocabulaire infantilisant ("elderspeak") doit être proscrit, crier déforme les sons chez les presbyacousiques, et il convient de toujours s'adresser au patient en premier lieu.</p>
+            </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="question">
+            <h3>5. Concernant le vieillissement physiologique :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Homogène dans la population</div>
+                <div class="option" onclick="toggleSelection(this)">B. Troubles de mémoire sont physiologiques</div>
+                <div class="option" onclick="toggleSelection(this)">C. Capacités attentionnelles diminuent</div>
+                <div class="option" onclick="toggleSelection(this)">D. Les doubles tâches sont préservées</div>
+                <div class="option" onclick="toggleSelection(this)">E. Les capacités de concentration diminuent</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(5, ['C', 'E'])">Valider</button>
+            <div class="explanation" id="explanation5">
+                <div class="result">Bonne(s) réponse(s) : C, E</div>
+                <p>Le vieillissement cognitif physiologique s'accompagne d'un ralentissement du traitement, d'une diminution des ressources attentionnelles et de concentration, ainsi que de difficultés en double tâche. Un trouble mnésique avéré n'est pas physiologique mais pathologique.</p>
+            </div>
+        </div>
+
+        <!-- Question 6 -->
+        <div class="question">
+            <h3>6. Concernant les troubles neurocognitifs (TNC) :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Le diagnostic peut être évoqué lorsque qu'au moins 2 fonctions supérieures sont altérées</div>
+                <div class="option" onclick="toggleSelection(this)">B. Lorsque l'autonomie est atteinte, on parle de trouble NC majeur</div>
+                <div class="option" onclick="toggleSelection(this)">C. Ils arrivent d'une manière progressive</div>
+                <div class="option" onclick="toggleSelection(this)">D. Ils sont réversibles</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(6, ['B', 'C'])">Valider</button>
+            <div class="explanation" id="explanation6">
+                <div class="result">Bonne(s) réponse(s) : B, C</div>
+                <p>L'atteinte de l'autonomie dans les activités du quotidien signe la transition vers un trouble neurocognitif majeur. L'apparition est classiquement insidieuse et progressive. L'atteinte d'au moins 1 domaine cognitif suffit pour évoquer le diagnostic (DSM-5).</p>
+            </div>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="question">
+            <h3>7. Concernant l'évaluation neuropsychologique :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Le MMS permet de diagnostiquer un TNC</div>
+                <div class="option" onclick="toggleSelection(this)">B. Les tests sont les mêmes chez les jeunes et chez les personnes âgées</div>
+                <div class="option" onclick="toggleSelection(this)">C. Les batteries de tests sont systématiques</div>
+                <div class="option" onclick="toggleSelection(this)">D. L'accord de la personne est indispensable pour sa bonne réalisation</div>
+                <div class="option" onclick="toggleSelection(this)">E. L'entretien avec la personne est central</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(7, ['D', 'E'])">Valider</button>
+            <div class="explanation" id="explanation7">
+                <div class="result">Bonne(s) réponse(s) : D, E</div>
+                <p>Le consentement et l'alliance lors de l'entretien clinique sont indispensables. Le MMS est un outil de repérage/dépistage global et non un instrument de diagnostic étiologique à lui seul.</p>
+            </div>
+        </div>
+
+        <!-- Question 8 -->
+        <div class="question">
+            <h3>8. Concernant les tests psychométriques :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Le test des 5 mots de Dubois évalue les fonctions exécutives</div>
+                <div class="option" onclick="toggleSelection(this)">B. Le test de la BREF évalue les fonctions exécutives</div>
+                <div class="option" onclick="toggleSelection(this)">C. Le test du MoCA est un dépistage global</div>
+                <div class="option" onclick="toggleSelection(this)">D. Un résultat de MMS de 30/30 est normal</div>
+                <div class="option" onclick="toggleSelection(this)">E. Le test de l'horloge évalue la mémoire</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(8, ['B', 'C', 'D'])">Valider</button>
+            <div class="explanation" id="explanation8">
+                <div class="result">Bonne(s) réponse(s) : B, C, D</div>
+                <p>La BREF teste la sphère frontale/exécutive, le MoCA permet un repérage global rapide, et 30/30 au MMS est le score maximal. Le test des 5 mots évalue la mémoire épisodique verbale (rappel libre/indicé), et l'horloge explore principalement les fonctions praxiques constructives et exécutives.</p>
+            </div>
+        </div>
+
+        <!-- Question 9 -->
+        <div class="question">
+            <h3>9. À propos des troubles de la déglutition :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Ils sont fréquents chez les personnes âgées</div>
+                <div class="option" onclick="toggleSelection(this)">B. La presbyphagie survient uniquement chez les personnes âgées</div>
+                <div class="option" onclick="toggleSelection(this)">C. Les trois phases de la déglutition peuvent être atteintes</div>
+                <div class="option" onclick="toggleSelection(this)">D. La modification de la voix est un signe clinique de stase buccale</div>
+                <div class="option" onclick="toggleSelection(this)">E. Le réflexe de toux est diminué</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(9, ['A', 'B', 'C', 'E'])">Valider</button>
+            <div class="explanation" id="explanation9">
+                <div class="result">Bonne(s) réponse(s) : A, B, C, E</div>
+                <p>La presbyphagie correspond au vieillissement physiologique de la déglutition chez le sujet âgé ; les phases orale, pharyngée et œsophagienne peuvent être altérées, avec une baisse de sensibilité laryngée et du réflexe de toux. La modification de la voix (voix mouillée) signe une stase laryngée/pharyngée et non buccale.</p>
+            </div>
+        </div>
+
+        <!-- Question 10 -->
+        <div class="question">
+            <h3>10. Quelles peuvent être les conséquences de la dysphagie :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Dénutrition</div>
+                <div class="option" onclick="toggleSelection(this)">B. Infection pulmonaire</div>
+                <div class="option" onclick="toggleSelection(this)">C. Infection des sinus</div>
+                <div class="option" onclick="toggleSelection(this)">D. Décès</div>
+                <div class="option" onclick="toggleSelection(this)">E. Isolement social</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(10, ['A', 'B', 'D', 'E'])">Valider</button>
+            <div class="explanation" id="explanation10">
+                <div class="result">Bonne(s) réponse(s) : A, B, D, E</div>
+                <p>La dysphagie expose à des risques nutritionnels (dénutrition, déshydratation), respiratoires (pneumopathies d'inhalation potentiellement fatales) et psychosociaux (peur d'avaler, évitement des repas partagés).</p>
+            </div>
+        </div>
+
+        <!-- Question 11 -->
+        <div class="question">
+            <h3>11. À propos du bilan de déglutition du sujet âgé :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Il est souvent réalisé pendant le repas en situation écologique</div>
+                <div class="option" onclick="toggleSelection(this)">B. On teste d'abord les aliments lisses puis les solides</div>
+                <div class="option" onclick="toggleSelection(this)">C. Si on voit une toux à l'eau gélifiée, on teste l'eau pétillante</div>
+                <div class="option" onclick="toggleSelection(this)">D. L'examen de la cavité buccale n'est pas utile</div>
+                <div class="option" onclick="toggleSelection(this)">E. Il est identique au sujet jeune peu importe la présence de troubles cognitifs</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(11, ['A', 'B'])">Valider</button>
+            <div class="explanation" id="explanation11">
+                <div class="result">Bonne(s) réponse(s) : A, B</div>
+                <p>L'observation écologique en situation de repas est primordiale pour tenir compte de la fatigabilité. Les essais commencent par les textures les plus sécurisantes (semi-solide/lisse). L'inspection bucco-dentaire est indispensable et le protocole doit s'adapter aux troubles cognitifs.</p>
+            </div>
+        </div>
+
+        <!-- Question 12 -->
+        <div class="question">
+            <h3>12. Concernant la rééducation orthophonique du sujet âgé :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Elle peut être à domicile</div>
+                <div class="option" onclick="toggleSelection(this)">B. Les objectifs sont les mêmes que chez les jeunes</div>
+                <div class="option" onclick="toggleSelection(this)">C. Elle concerne uniquement les troubles de la déglutition</div>
+                <div class="option" onclick="toggleSelection(this)">D. Une auto-rééducation peut être proposée entre chaque séance</div>
+                <div class="option" onclick="toggleSelection(this)">E. La méthode Montessori est adaptée aux sujets âgés</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(12, ['A', 'D', 'E'])">Valider</button>
+            <div class="explanation" id="explanation12">
+                <div class="result">Bonne(s) réponse(s) : A, D, E</div>
+                <p>La prise en charge orthophonique gériatrique peut se dérouler au domicile, intégrer des exercices guidés entre les séances et s'appuyer sur l'approche adaptée Montessori. Les objectifs sont individualisés au projet de vie et ne se limitent pas à la sphère déglutition (communication, langage, cognition).</p>
+            </div>
+        </div>
+
+        <!-- Question 13 -->
+        <div class="question">
+            <h3>13. Concernant les troubles neurocognitifs (TNC) :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. La maladie d'Alzheimer peut donner des troubles du langage</div>
+                <div class="option" onclick="toggleSelection(this)">B. La maladie à corps de Lewy a une évolution rapide</div>
+                <div class="option" onclick="toggleSelection(this)">C. Les accidents vasculaires cérébraux peuvent être à l'origine de troubles neurocognitifs</div>
+                <div class="option" onclick="toggleSelection(this)">D. Les hallucinations sont précoces dans la maladie d'Alzheimer</div>
+                <div class="option" onclick="toggleSelection(this)">E. Les troubles du sommeil paradoxal sont fréquents dans Alzheimer</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(13, ['A', 'C'])">Valider</button>
+            <div class="explanation" id="explanation13">
+                <div class="result">Bonne(s) réponse(s) : A, C</div>
+                <p>La maladie d'Alzheimer comprend fréquemment des atteintes phasiques (manque du mot, aphasie). Les AVC sont la cause des TNC d'origine vasculaire. Les hallucinations visuelles précoces et les troubles du comportement en sommeil paradoxal (RBD) sont des caractéristiques majeures de la démence à corps de Lewy.</p>
+            </div>
+        </div>
+
+        <!-- Question 14 -->
+        <div class="question">
+            <h3>14. Quels aliments présentent un risque majeur de fausse route :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Gâteau sec</div>
+                <div class="option" onclick="toggleSelection(this)">B. Riz</div>
+                <div class="option" onclick="toggleSelection(this)">C. Purée</div>
+                <div class="option" onclick="toggleSelection(this)">D. Compote</div>
+                <div class="option" onclick="toggleSelection(this)">E. Ananas</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(14, ['A', 'B', 'E'])">Valider</button>
+            <div class="explanation" id="explanation14">
+                <div class="result">Bonne(s) réponse(s) : A, B, E</div>
+                <p>Les aliments friables (gâteaux secs), les petits grains dispersibles (riz) et les textures mixtes liquide/solide à fibres (fruits juteux comme l'ananas, orange) présentent un risque élevé de fausse route par manque de cohésion du bol alimentaire.</p>
+            </div>
+        </div>
+
+        <!-- Question 15 -->
+        <div class="question">
+            <h3>15. Concernant l'autonomie et l'indépendance :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. L'autonomie décisionnelle peut être affectée avec un TNC</div>
+                <div class="option" onclick="toggleSelection(this)">B. L'indépendance fonctionnelle est évaluée avec l'échelle des IADL</div>
+                <div class="option" onclick="toggleSelection(this)">C. L'âge est la cause de la dépendance fonctionnelle</div>
+                <div class="option" onclick="toggleSelection(this)">D. Le handicap physique est une cause de perte d'autonomie décisionnelle</div>
+                <div class="option" onclick="toggleSelection(this)">E. L'indépendance fonctionnelle peut être affectée dans les TNC</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(15, ['A', 'B', 'E'])">Valider</button>
+            <div class="explanation" id="explanation15">
+                <div class="result">Bonne(s) réponse(s) : A, B, E</div>
+                <p>L'autonomie relève de la capacité à décider pour soi-même, tandis que l'indépendance fonctionnelle concerne la capacité à réaliser seul les actes de la vie quotidienne (évaluée par les échelles ADL et IADL). Un handicap moteur peut faire perdre l'indépendance physique sans altérer l'autonomie de jugement.</p>
+            </div>
+        </div>
+
+        <!-- Question 16 -->
+        <div class="question">
+            <h3>16. À propos de la polypathologie :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Le nombre de maladies chroniques augmente avec l'âge</div>
+                <div class="option" onclick="toggleSelection(this)">B. Le nombre moyen de pathologies chroniques est de 9</div>
+                <div class="option" onclick="toggleSelection(this)">C. Tous les sujets âgés sont polypathologiques</div>
+                <div class="option" onclick="toggleSelection(this)">D. La polymédication entraîne une iatrogénie importante</div>
+                <div class="option" onclick="toggleSelection(this)">E. La polypathologie augmente la fragilité</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(16, ['A', 'D', 'E'])">Valider</button>
+            <div class="explanation" id="explanation16">
+                <div class="result">Bonne(s) réponse(s) : A, D, E</div>
+                <p>La multimorbidité augmente avec l'âge, favorise la décompensation en cascade et majore le risque iatrogénique induit par la polymédication. Le nombre moyen de pathologies chroniques chez le sujet âgé polypathologique se situe autour de 4 à 5 (et non 9).</p>
+            </div>
+        </div>
+
+        <!-- Question 17 -->
+        <div class="question">
+            <h3>17. L'évaluation gériatrique standardisée (EGS) comporte :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Évaluation du risque de chute</div>
+                <div class="option" onclick="toggleSelection(this)">B. Évaluation de la fonction cardiaque</div>
+                <div class="option" onclick="toggleSelection(this)">C. Évaluation des fonctions cognitives</div>
+                <div class="option" onclick="toggleSelection(this)">D. Évaluation de la thymie</div>
+                <div class="option" onclick="toggleSelection(this)">E. Évaluation de l'endurance</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(17, ['A', 'C', 'D'])">Valider</button>
+            <div class="explanation" id="explanation17">
+                <div class="result">Bonne(s) réponse(s) : A, C, D</div>
+                <p>L'EGS est une approche multidimensionnelle évaluant l'autonomie, l'état nutritionnel, l'équilibre et le risque de chute, la cognition (MMS...) et l'humeur/thymie (GDS...).</p>
+            </div>
+        </div>
+
+        <!-- Question 18 -->
+        <div class="question">
+            <h3>18. À propos de la population âgée en France :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Plus d'une personne sur 2 de 80 ans vit en EHPAD</div>
+                <div class="option" onclick="toggleSelection(this)">B. Moins d'une personne sur 10 de plus de 65 ans présente une dépendance</div>
+                <div class="option" onclick="toggleSelection(this)">C. Plus d'une personne sur 2 de plus de 80 ans a un trouble cognitif</div>
+                <div class="option" onclick="toggleSelection(this)">D. L'espérance de vie d'une femme de 90 ans est de 5 ans en 2020</div>
+                <div class="option" onclick="toggleSelection(this)">E. Un tiers des personnes âgées ont un trouble de l'audition</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(18, ['B', 'E'])">Valider</button>
+            <div class="explanation" id="explanation18">
+                <div class="result">Bonne(s) réponse(s) : B, E</div>
+                <p>La grande majorité des octogénaires vit à domicile (seule une minorité vit en institution). À plus de 80 ans, les troubles neurocognitifs concernent environ 15 à 20 % de la population (et non plus de 50 %). Les presbyacousies touchent au moins un tiers des personnes âgées.</p>
+            </div>
+        </div>
+
+        <a href="https://mjofrance.github.io/Orthophonie/" class="home-link">Retour à l'accueil</a>
+    </div>
+
+    <script>
+        function toggleSelection(element) {
+            element.classList.toggle("selected");
+        }
+
+        function validateMultipleAnswer(questionNumber, correctAnswers) {
+            const questionElement = event.target.parentElement;
+            const options = questionElement.querySelectorAll('.option');
+            options.forEach(option => {
+                const optionLetter = option.textContent.trim().charAt(0).toUpperCase();
+                if (correctAnswers.includes(optionLetter)) {
+                    option.classList.add("correct");
+                } else if (option.classList.contains("selected")) {
+                    option.classList.add("incorrect");
+                }
+                option.classList.remove("selected");
+            });
+            document.getElementById(`explanation${questionNumber}`).style.display = "block";
+        }
+    </script>
+</body>
+</html>

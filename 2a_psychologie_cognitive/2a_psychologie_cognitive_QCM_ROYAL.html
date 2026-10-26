@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCM : Psychologie Cognitive et Neuropsychologie</title>
+    <!-- Lien vers le fichier CSS externe selon l'arborescence -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <a href="https://mjofrance.github.io/Orthophonie/" class="home-link">Retour à l'accueil</a>
+        <h1>QCM : Psychologie Cognitive et Neuropsychologie</h1>
+
+        <!-- ========================================== -->
+
+        <!-- Question 1 -->
+        <div class="question">
+            <h3>1. La conclusion des travaux de Brooks permet d'affirmer :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. La mémoire de travail est subdivisible en 2 systèmes verbale et visio spatial</div>
+                <div class="option" onclick="toggleSelection(this)">B. La mémoire à long terme est subdivisible en 2 systèmes verbale et visio spatial</div>
+                <div class="option" onclick="toggleSelection(this)">C. Les réponses verbales interfèrent avec la mémorisation des informations verbales</div>
+                <div class="option" onclick="toggleSelection(this)">D. Le réponses motrice interfèrent avec la mémorisation des informations visuo-spatiales</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2024_1', ['C', 'D'])">Valider</button>
+            <div class="explanation" id="explanation2024_1">
+                <div class="result">Bonnes réponses : C et D</div>
+                <p>Les expériences de Lee Brooks (1967, 1968) ont mis en évidence la sélectivité des interférences : une réponse verbale surcharge spécifiquement le traitement verbal, tandis qu'une réponse motrice/visuo-spatiale (comme pointer une case) interfère avec le maintien visuo-spatial.</p>
+            </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="question">
+            <h3>2. Quelles sont les fonctions exécutives décrites par le modèle de Miyake (2000) :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Mise à jour</div>
+                <div class="option" onclick="toggleSelection(this)">B. Flexibilité mentale</div>
+                <div class="option" onclick="toggleSelection(this)">C. Déduction de règles</div>
+                <div class="option" onclick="toggleSelection(this)">D. Flexibilité psychique</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2024_2', ['A', 'B'])">Valider</button>
+            <div class="explanation" id="explanation2024_2">
+                <div class="result">Bonnes réponses : A et B (ainsi que l'inhibition)</div>
+                <p>Le modèle princeps de Miyake et al. (2000) isole trois fonctions exécutives de base : la mise à jour (updating), la flexibilité mentale (shifting) et l'inhibition.</p>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question">
+            <h3>3. Quelles sont les affirmations exactes :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. La courbe en U des effets sériels est expliquée par les interférences pro-actives et rétro-actives</div>
+                <div class="option" onclick="toggleSelection(this)">B. La courbe en U des effets sériels est expliquée par l'utilisation des mémoires à court terme et long terme</div>
+                <div class="option" onclick="toggleSelection(this)">C. Dans le modèle de Cowan, la mémoire à court terme est la partie activée de la mémoire à long terme</div>
+                <div class="option" onclick="toggleSelection(this)">D. Dans le modèle de Cowan, la mémoire long terme est la partie activée de la mémoire à court terme</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2024_3', ['A', 'B', 'C'])">Valider</button>
+            <div class="explanation" id="explanation2024_3">
+                <div class="result">Bonnes réponses : A, B et C</div>
+                <p>La courbe de position sérielle peut s'expliquer à la fois par la dissociation MCT/MLT (primauté en MLT, récence en MCT) et par la théorie des interférences. Dans le modèle unitaire de Cowan, la MCT correspond à la fraction activée de la MLT.</p>
+            </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="question">
+            <h3>5. Qu'est-ce que les modèles de Cowan et d'Atkinson et Shiffrin ont de commun :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Mémoire à court terme</div>
+                <div class="option" onclick="toggleSelection(this)">B. Mémoire à long terme</div>
+                <div class="option" onclick="toggleSelection(this)">C. Focus attentionnel</div>
+                <div class="option" onclick="toggleSelection(this)">D. Mémoire à court terme est la partie activée de la mémoire à long terme</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2024_5', ['A', 'B'])">Valider</button>
+            <div class="explanation" id="explanation2024_5">
+                <div class="result">Bonnes réponses : A et B</div>
+                <p>Les deux architectures distinguent les composantes de mémoire à court terme et de mémoire à long terme (bien qu'Atkinson et Shiffrin les considèrent comme des registres structurels distincts, et Cowan comme des états d'activation différents).</p>
+            </div>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="question">
+            <h3>7. L'effet de primauté est influencé par :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. La modalité de présentation des items de la liste</div>
+                <div class="option" onclick="toggleSelection(this)">B. La fréquence des mots de la liste</div>
+                <div class="option" onclick="toggleSelection(this)">C. La longueur de la liste</div>
+                <div class="option" onclick="toggleSelection(this)">D. La réalisation d'une activité interférente entre la fin de la liste et le rappel</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2024_7', ['B'])">Valider</button>
+            <div class="explanation" id="explanation2024_7">
+                <div class="result">Bonne réponse : B</div>
+                <p>L'effet de primauté, reposant sur un transfert en mémoire à long terme grâce à l'auto-répétition, est particulièrement sensible aux facteurs de MLT comme la fréquence d'usage des mots. L'activité interférente terminale affecte typiquement l'effet de récence.</p>
+            </div>
+        </div>
+
+        <!-- Question 9 -->
+        <div class="question">
+            <h3>9. Cocher ce qui est vrai :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Les fausses reconnaissances sont dûes à un phénomène d'économie au réapprentissage</div>
+                <div class="option" onclick="toggleSelection(this)">B. Dans l'expérience de Loftus et Pickrell: 25% ont rappelé un faux souvenir</div>
+                <div class="option" onclick="toggleSelection(this)">C. Selon l'expérience de Loftus, l'estimation de la vitesse de la voiture est influencée par la façon de formuler la question</div>
+                <div class="option" onclick="toggleSelection(this)">D. Le paradigme d'implantation de faux souvenirs: introduire de manière détournée une information trompeuse d'une séance précédente et voir si la personne considère que celle-ci fait partie de l'événement initial</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2024_9', ['B', 'C', 'D'])">Valider</button>
+            <div class="explanation" id="explanation2024_9">
+                <div class="result">Bonnes réponses : B, C et D</div>
+                <p>Dans l'étude « Lost in the mall » (Loftus & Pickrell, 1995), environ 25% des participants ont intégré un souvenir totalement fictif. La formulation du verbe (ex. « smashed » vs « hit ») modifie significativement les estimations de vitesse.</p>
+            </div>
+        </div>
+
+        <!-- Question 10 -->
+        <div class="question">
+            <h3>10. Dire quelle(s) est (sont) l' (les) affirmation(s) vraie(s) :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. La récupération d'un souvenir nécessite de déterminer si l'information découle d'un épisode réellement vécu ou d'un episode lu/entendu, grâce aux processus de contrôle de la réalité</div>
+                <div class="option" onclick="toggleSelection(this)">B. Le contrôle de la source dépend du temps qu'on a pour détecter la différence entre des épisodes similaires stockés en mémoire</div>
+                <div class="option" onclick="toggleSelection(this)">C. Les items émotionnels négatifs entraînent une activation importante des régions frontales temporo-occipital/fronto-pariétal</div>
+                <div class="option" onclick="toggleSelection(this)">D. Dans son expérience sur le réapprentissage, Ebbinghaus oubliait environ 65% des mots des nouvelles listes qu'il apprenait, ce qui témoigne d'un phénomène d'interférence proactive</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2024_10', ['A', 'B', 'D'])">Valider</button>
+            <div class="explanation" id="explanation2024_10">
+                <div class="result">Bonnes réponses : A, B et D</div>
+                <p>Le contrôle de la réalité (« reality monitoring ») discrimine souvenirs réels et représentations imaginées/entendues. L'oubli croissant des listes successives illustre parfaitement l'interférence proactive documentée chez Ebbinghaus.</p>
+            </div>
+        </div>
+
+        <!-- Question 11 -->
+        <div class="question">
+            <h3>11. Concernant l'engagement exogène de l'attention :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Il est plus rapide que l'engagement endogène</div>
+                <div class="option" onclick="toggleSelection(this)">B. Dans l'expérience de Posner, il est provoqué par un indice spatial latéral (situé à gauche ou à droite)</div>
+                <div class="option" onclick="toggleSelection(this)">C. Il correspond à un phénomène de capture attentionnelle</div>
+                <div class="option" onclick="toggleSelection(this)">D. Après un engagement de cette forme, l'attention est insensible à la distraction</div>
+                <div class="option" onclick="toggleSelection(this)">E. Aucune réponse proposée n'est correcte</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2024_11', ['A', 'B', 'C'])">Valider</button>
+            <div class="explanation" id="explanation2024_11">
+                <div class="result">Bonnes réponses : A, B et C</div>
+                <p>Le guidage exogène est automatique, réflexe et rapide (< 100 ms). Dans le paradigme de Posner, un signal périphérique (flash latéral) induit une capture attentionnelle involontaire.</p>
+            </div>
+        </div>
+
+        <!-- Question 13 -->
+        <div class="question">
+            <h3>13. Les situations hors du temps :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Mettent en évidence que certains rythmes sont auto-entretenus par l'organisme</div>
+                <div class="option" onclick="toggleSelection(this)">B. Mettent en évidence le caractère endogène de certains rythmes</div>
+                <div class="option" onclick="toggleSelection(this)">C. Montrent l'importance des caractéristiques environnementales sur l'ajustement des rythmes de l'organisme</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2024_13', ['A', 'B'])">Valider</button>
+            <div class="explanation" id="explanation2024_13">
+                <div class="result">Bonnes réponses : A et B</div>
+                <p>Les expériences d'isolement temporel (en milieu souterrain sans donneur de temps / zeitgeber) prouvent l'existence d'une rythmicité biologique endogène et spontanément auto-entretenue (horloge circadienne interne).</p>
+            </div>
+        </div>
+
+        <!-- Question 14 -->
+        <div class="question">
+            <h3>14. L'attention sélective repose uniquement sur :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Les traitements ascendants</div>
+                <div class="option" onclick="toggleSelection(this)">B. Les traitements descendants</div>
+                <div class="option" onclick="toggleSelection(this)">C. Les traitements dirigés par les concepts</div>
+                <div class="option" onclick="toggleSelection(this)">D. Les traitements dirigés par les données</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2024_14', [])">Valider</button>
+            <div class="explanation" id="explanation2024_14">
+                <div class="result">Aucune de ces propositions n'est exacte (question piège)</div>
+                <p>L'attention sélective ne repose <strong>jamais uniquement</strong> sur l'un des deux versants : elle résulte en permanence d'une interaction dynamique et conjointe entre processus ascendants (bottom-up, guidés par les stimuli sensoriels) et descendants (top-down, guidés par les buts et concepts).</p>
+            </div>
+        </div>
+
+        <!-- Question 16 -->
+        <div class="question">
+            <h3>16. L'obtention du code phonologique dans le lexique lors de la lecture à voix haute est appelé :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Voie d'assemblage</div>
+                <div class="option" onclick="toggleSelection(this)">B. Voie d'adressage</div>
+                <div class="option" onclick="toggleSelection(this)">C. Voie phonologique</div>
+                <div class="option" onclick="toggleSelection(this)">D. Voie de délestage</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2024_16', ['B'])">Valider</button>
+            <div class="explanation" id="explanation2024_16">
+                <div class="result">Bonne réponse : B. Voie d'adressage</div>
+                <p>La voie d'adressage (ou voie lexicale/directe) accède directement à la forme orthographique stockée puis à sa forme phonologique globale dans le lexique mental, sans médiation par conversion grapho-phonémique.</p>
+            </div>
+        </div>
+
+        <!-- Question 17 -->
+        <div class="question">
+            <h3>17. En situation de lecture, les codes phonologiques :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Ne sont pas utilisés</div>
+                <div class="option" onclick="toggleSelection(this)">B. Sont utilisés par les lecteurs experts</div>
+                <div class="option" onclick="toggleSelection(this)">C. Sont utilisés par les lecteurs débutants</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2024_17', ['B', 'C'])">Valider</button>
+            <div class="explanation" id="explanation2024_17">
+                <div class="result">Bonnes réponses : B et C</div>
+                <p>Les codes phonologiques sont indispensables à l'apprentissage chez le débutant (voie d'assemblage), mais continuent d'être activés automatiquement et très précocement chez l'expert pour stabiliser la compréhension et l'intégration syntaxico-sémantique.</p>
+            </div>
+        </div>
+
+        <!-- Question 18 -->
+        <div class="question">
+            <h3>18. En situation de compréhension écrite :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. La représentation littérale du texte est conservée en MLT</div>
+                <div class="option" onclick="toggleSelection(this)">B. La microstructure correspond à un résumé mental des grandes idées du texte</div>
+                <div class="option" onclick="toggleSelection(this)">C. Le modèle de situation est une représentation interne où sont intégrées les connaissances fournies par le texte et celles préalables du lecteur</div>
+                <div class="option" onclick="toggleSelection(this)">D. La base de texte est une représentation interne du contenu sémantique du texte</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2024_18', ['C', 'D'])">Valider</button>
+            <div class="explanation" id="explanation2024_18">
+                <div class="result">Bonnes réponses : C et D</div>
+                <p>Selon le modèle de Kintsch et van Dijk, la base de texte regroupe le contenu sémantique propositionnel, tandis que le modèle de situation représente le monde évoqué en fusionnant les données textuelles et les connaissances encyclopédiques du sujet.</p>
+            </div>
+        </div>
+
+        <!-- Question 20 -->
+        <div class="question">
+            <h3>20. Quelle(s) affirmation(s) est (sont) vraie(s) ?</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Les difficultés de lecture touchent 4 personnes sur 10</div>
+                <div class="option" onclick="toggleSelection(this)">B. La dyslexie est le type de difficulté le plus fréquent</div>
+                <div class="option" onclick="toggleSelection(this)">C. Certains lecteurs en difficulté du point de vue de l'accès au lexique parviennent à compenser en compréhension écrite</div>
+                <div class="option" onclick="toggleSelection(this)">D. Les liens entre qualité de l'accès et compréhension écrite sont particulièrement élevés en début d'apprentissage</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2024_20', ['C', 'D'])">Valider</button>
+            <div class="explanation" id="explanation2024_20">
+                <div class="result">Bonnes réponses : C et D</div>
+                <p>Au début de l'apprentissage de la lecture, le décodage et l'accès lexical conditionnent directement l'accès au sens. Plus tard, des compétences langagières et contextuelles élevées peuvent permettre de compenser partiellement un déficit d'accès lexical.</p>
+            </div>
+        </div>
+
+        <!-- Question 22 -->
+        <div class="question">
+            <h3>22. Quelle(s) affirmation(s) est (sont) vraie(s) ?</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. L'AVC n'est pas une pathologie acquise</div>
+                <div class="option" onclick="toggleSelection(this)">B. Les traumatismes crâniens sont des lésions acquises</div>
+                <div class="option" onclick="toggleSelection(this)">C. Le trouble du langage écrit (dyslexie) est une lésion acquise</div>
+                <div class="option" onclick="toggleSelection(this)">D. Les troubles de l'apprentissage sont des troubles neurodéveloppementaux</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2024_22', ['B', 'D'])">Valider</button>
+            <div class="explanation" id="explanation2024_22">
+                <div class="result">Bonnes réponses : B et D</div>
+                <p>Les traumatismes crâniens surviennent au cours de la vie (lésions cérébrales acquises), alors que les troubles spécifiques des apprentissages (dyslexie, dysphasie, dyspraxie) sont d'origine neurodéveloppementale.</p>
+            </div>
+        </div>
+
+        <!-- Question 24 -->
+        <div class="question">
+            <h3>24. Les processus top-down :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Sont des processus qui visent des procédures de bas niveau</div>
+                <div class="option" onclick="toggleSelection(this)">B. Visent des capacités d'auto-régulation et de prise de conscience des difficultés</div>
+                <div class="option" onclick="toggleSelection(this)">C. Activation répétée permettant l'augmentation des capacités cognitives</div>
+                <div class="option" onclick="toggleSelection(this)">D. Permettent la mise en oeuvre de stratégies alternatives</div>
+                <div class="option" onclick="toggleSelection(this)">E. Permettent la mise en oeuvre de stratégies métacognitives</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2024_24', ['B', 'D', 'E'])">Valider</button>
+            <div class="explanation" id="explanation2024_24">
+                <div class="result">Bonnes réponses : B, D et E</div>
+                <p>Les approches et rééducations « top-down » en neuropsychologie s'appuient sur le contrôle exécutif, l'auto-évaluation métacognitive et l'élaboration de stratégies cognitives de compensation.</p>
+            </div>
+        </div>
+
+        <!-- Question 25 -->
+        <div class="question">
+            <h3>25. Les enfants victimes d'un traumatisme crânien :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Ont souvent des séquelles plus graves que les adultes</div>
+                <div class="option" onclick="toggleSelection(this)">B. Présentent divers troubles pragmatiques en production</div>
+                <div class="option" onclick="toggleSelection(this)">C. Présentent rarement des troubles de la communication</div>
+                <div class="option" onclick="toggleSelection(this)">D. Présentent des troubles de la compréhension de l'implicite</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2024_25', ['B', 'D'])">Valider</button>
+            <div class="explanation" id="explanation2024_25">
+                <div class="result">Bonnes réponses : B et D</div>
+                <p>Les séquelles chez l'enfant cérébrolésé touchent fréquemment la communication fonctionnelle et la pragmatique du langage (gestion des inférences, non-littéral, adéquation au contexte de communication).</p>
+            </div>
+        </div>
+
+        <!-- Question 28 -->
+        <div class="question">
+            <h3>28. Parmi ces affirmations, lesquelles sont vraies :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Dans le vieillissement, on observe une accentuation du phénomène de latéralisation</div>
+                <div class="option" onclick="toggleSelection(this)">B. Une lésion peut engendrer un dysfonctionnement des lésions éloignées et non lésée de la région lésée</div>
+                <div class="option" onclick="toggleSelection(this)">C. Un patient présentant un ictus amnésique a plus de facteurs de risque vasculaire que la population générale</div>
+                <div class="option" onclick="toggleSelection(this)">D. Le cortex préfrontal gauche est impliqué dans la récupération d'informations en mémoire épisodique</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2024_28', ['B'])">Valider</button>
+            <div class="explanation" id="explanation2024_28">
+                <div class="result">Bonne réponse : B</div>
+                <p>Ce phénomène d'inhibition ou de retentissement fonctionnel à distance d'une lésion focale correspond au concept de <em>diaschisis</em> (décrit par von Monakow). Dans le vieillissement, on observe plutôt une dédifférenciation (modèle HAROLD).</p>
+            </div>
+        </div>
+
+        <!-- Question 31 -->
+        <div class="question">
+            <h3>31. Le patient Leborgne décrit par Broca :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. A permis de fournir la 1e preuve scientifique de la localisation d'une fonction mentale</div>
+                <div class="option" onclick="toggleSelection(this)">B. Présentait une atteinte du gyrus temporal supérieur gauche</div>
+                <div class="option" onclick="toggleSelection(this)">C. Présentait une perte quasi complète et isolée de la production du langage</div>
+                <div class="option" onclick="toggleSelection(this)">D. A permis de montrer que les effets des lésions cérébrales ne sont pas figés mais au contraire peuvent évoluer</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2024_31', ['A', 'C'])">Valider</button>
+            <div class="explanation" id="explanation2024_31">
+                <div class="result">Bonnes réponses : A et C</div>
+                <p>Le patient Leborgne (« Tan »), autopsié par Paul Broca en 1861, présentait une lésion du gyrus frontal inférieur gauche, constituant la première démonstration anatomo-clinique solide du substrat cérébral du langage articulé.</p>
+            </div>
+        </div>
+
+        <!-- Question 32 -->
+        <div class="question">
+            <h3>32. Lors d'un échange avec un enfant de maternelle on peut évaluer :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. L'ironie</div>
+                <div class="option" onclick="toggleSelection(this)">B. Les tours de parole</div>
+                <div class="option" onclick="toggleSelection(this)">C. La maîtrise des thèmes de conversation</div>
+                <div class="option" onclick="toggleSelection(this)">D. L'humour</div>
+                <div class="option" onclick="toggleSelection(this)">E. Le sarcasme</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2024_32', ['B', 'C'])">Valider</button>
+            <div class="explanation" id="explanation2024_32">
+                <div class="result">Bonnes réponses : B et C</div>
+                <p>En maternelle (développement précoce de la pragmatique), on observe la régulation conversationnelle de base : alternance des tours de parole et maintien/changement thématique. Le second degré, le sarcasme et l'ironie n'émergent que plus tardivement.</p>
+            </div>
+        </div>
+
+
+        <!-- ========================================== -->
+
+        <!-- Question 1 (2022-2023) -->
+        <div class="question">
+            <h3>1. La pragmatique est rarement altérée lors d'une lésion frontale :</h3>
+            <div class="options">
+                <div class="option" onclick="checkAnswer(this, 'faux')">Vrai</div>
+                <div class="option" onclick="checkAnswer(this, 'faux')">Faux</div>
+            </div>
+            <div class="explanation" id="explanation2023_1">
+                <div class="result">Réponse : FAUX</div>
+                <p>Les troubles de la pragmatique sont très fréquents lors des lésions frontales (et hémisphériques droites), en lien direct avec les perturbations de l'adaptation au contexte et des fonctions exécutives.</p>
+            </div>
+        </div>
+
+        <!-- Question 2 (2022-2023) -->
+        <div class="question">
+            <h3>2. Le patient Leborgne décrit par Broca :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Est surnommé le patient « Tan »</div>
+                <div class="option" onclick="toggleSelection(this)">B. Présente une lésion du gyrus frontal inférieur droit</div>
+                <div class="option" onclick="toggleSelection(this)">C. Présente des troubles quasi isolés de la production du langage</div>
+                <div class="option" onclick="toggleSelection(this)">D. A permis de prouver que les effets des lésions sont évolutifs</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2023_2', ['A', 'C'])">Valider</button>
+            <div class="explanation" id="explanation2023_2">
+                <div class="result">Bonnes réponses : A et C</div>
+                <p>Le patient était surnommé « Tan-Tan » (seule syllabe répétée). Sa lésion siégeait dans le gyrus frontal inférieur <strong>gauche</strong> (aire de Broca), préservant de façon relative la compréhension.</p>
+            </div>
+        </div>
+
+        <!-- Question 3 (2022-2023) -->
+        <div class="question">
+            <h3>3. Les troubles de la pragmatique peuvent toucher les patients :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Cérébrolésés</div>
+                <div class="option" onclick="toggleSelection(this)">B. Avec lésion droite</div>
+                <div class="option" onclick="toggleSelection(this)">C. Avec lésion gauche</div>
+                <div class="option" onclick="toggleSelection(this)">D. Toutes les réponses sont correctes</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2023_3', ['A', 'B', 'D'])">Valider</button>
+            <div class="explanation" id="explanation2023_3">
+                <div class="result">Bonnes réponses : A, B et D</div>
+                <p>Les troubles de l'usage en contexte du langage concernent l'ensemble des patients cérébrolésés, particulièrement les lésés droits et frontaux.</p>
+            </div>
+        </div>
+
+        <!-- Question 4 (2022-2023) -->
+        <div class="question">
+            <h3>4. Le modèle de Collins et Loftus (1975) nous a permis de comprendre qu'il y a :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Une hiérarchie catégorielle</div>
+                <div class="option" onclick="toggleSelection(this)">B. Une économie au réapprentissage</div>
+                <div class="option" onclick="toggleSelection(this)">C. Une convergence des activations</div>
+                <div class="option" onclick="toggleSelection(this)">D. Une diffusion de l'activation</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2023_4', ['D'])">Valider</button>
+            <div class="explanation" id="explanation2023_4">
+                <div class="result">Bonne réponse : D. Une diffusion de l'activation</div>
+                <p>Le modèle en réseau sémantique de Collins et Loftus introduit le principe fondamental de « diffusion de l'activation » (spreading activation) pour rendre compte des effets d'amorçage sémantique et de typicalité.</p>
+            </div>
+        </div>
+
+        <!-- Question 5 (2022-2023) -->
+        <div class="question">
+            <h3>5. Cocher l'affirmation vraie : L'obtention du code phonologique dans le lexique pendant la lecture est nommée :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Voie d'assemblage</div>
+                <div class="option" onclick="toggleSelection(this)">B. Voie d'adressage</div>
+                <div class="option" onclick="toggleSelection(this)">C. Voie phonologique</div>
+                <div class="option" onclick="toggleSelection(this)">D. Voie de délestage</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2023_5', ['B'])">Valider</button>
+            <div class="explanation" id="explanation2023_5">
+                <div class="result">Bonne réponse : B. Voie d'adressage</div>
+                <p>L'accès direct aux représentations lexicales phonologiques s'opère par la voie d'adressage (voie lexicale), contrairement à la voie d'assemblage (conversion graphème-phonème).</p>
+            </div>
+        </div>
+
+        <!-- Question 6 (2022-2023) -->
+        <div class="question">
+            <h3>6. Dans le modèle d'Atkinson et Shiffrin, on retrouve :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. La mémoire épisodique</div>
+                <div class="option" onclick="toggleSelection(this)">B. La mémoire de travail</div>
+                <div class="option" onclick="toggleSelection(this)">C. La mémoire à court terme</div>
+                <div class="option" onclick="toggleSelection(this)">D. La mémoire à long terme</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2023_6', ['C', 'D'])">Valider</button>
+            <div class="explanation" id="explanation2023_6">
+                <div class="result">Bonnes réponses : C et D</div>
+                <p>Le modèle modal d'Atkinson et Shiffrin (1968) s'articule autour des registres sensoriels, du magasin à court terme (MCT) et du magasin à long terme (MLT).</p>
+            </div>
+        </div>
+
+        <!-- Question 7 (2022-2023) -->
+        <div class="question">
+            <h3>7. Quelles théories expliquent la naissance du langage ?</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Innéiste</div>
+                <div class="option" onclick="toggleSelection(this)">B. Environnementaliste</div>
+                <div class="option" onclick="toggleSelection(this)">C. Socio-constructive</div>
+                <div class="option" onclick="toggleSelection(this)">D. Divine</div>
+                <div class="option" onclick="toggleSelection(this)">E. Culturelle</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2023_7', ['A', 'B', 'C'])">Valider</button>
+            <div class="explanation" id="explanation2023_7">
+                <div class="result">Bonnes réponses : A, B et C</div>
+                <p>Les grands cadres scientifiques de l'acquisition et de l'émergence du langage regroupent les approches innéistes/générativistes (Chomsky), environnementalistes/béhavioristes et socio-constructivistes/interactionnistes (Vygotski, Bruner).</p>
+            </div>
+        </div>
+
+        <!-- Question 8 (2022-2023) -->
+        <div class="question">
+            <h3>8. Concernant le groupe Barkley :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Les séances s'étendent sur plusieurs années</div>
+                <div class="option" onclick="toggleSelection(this)">B. Il y a 10 séances</div>
+                <div class="option" onclick="toggleSelection(this)">C. Il est destiné aux parents d'enfants TDAH</div>
+                <div class="option" onclick="toggleSelection(this)">D. Il est destiné aux enfants TDAH</div>
+                <div class="option" onclick="toggleSelection(this)">E. Il est mené par un binôme de professionnels</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer('2023_8', ['B', 'C'])">Valider</button>
+            <div class="explanation" id="explanation2023_8">
+                <div class="result">Bonnes réponses : B et C</div>
+                <p>Le programme d'entraînement aux habiletés parentales de Barkley est structuré en environ 10 séances thématiques et s'adresse directement aux parents d'enfants présentant un TDAH ou un trouble oppositionnel.</p>
+            </div>
+        </div>
+
+        <a href="https://mjofrance.github.io/Orthophonie/" class="home-link">Retour à l'accueil</a>
+    </div>
+
+    <script>
+        function toggleSelection(element) {
+            element.classList.toggle("selected");
+        }
+
+        function validateMultipleAnswer(questionId, correctAnswers) {
+            const questionElement = event.target.parentElement;
+            const options = questionElement.querySelectorAll('.option');
+            options.forEach(option => {
+                const optionLetter = option.textContent.trim().charAt(0);
+                if (correctAnswers.includes(optionLetter)) {
+                    option.classList.add("correct");
+                } else if (option.classList.contains("selected")) {
+                    option.classList.add("incorrect");
+                }
+                option.classList.remove("selected");
+            });
+            const expl = document.getElementById('explanation' + questionId);
+            if (expl) expl.style.display = "block";
+        }
+
+        function checkAnswer(element, correctAnswer) {
+            const options = element.parentElement.querySelectorAll('.option');
+            options.forEach(option => {
+                option.classList.remove('correct', 'incorrect');
+                const text = option.textContent.trim().toLowerCase();
+                if ((correctAnswer === 'vrai' && text === 'vrai') ||
+                    (correctAnswer === 'faux' && text === 'faux')) {
+                    option.classList.add('correct');
+                } else if (option === element) {
+                    option.classList.add('incorrect');
+                }
+            });
+            const explanation = element.parentElement.parentElement.querySelector('.explanation');
+            if (explanation) {
+                explanation.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCM : Oralité et Déglutition</title>
+    <!-- Lien vers le fichier CSS externe conforme à l'arborescence -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <a href="https://mjofrance.github.io/Orthophonie/" class="home-link">Retour à l'accueil</a>
+        <h1>Entraînement QCM & QROC : Oralité</h1>
+
+        <!-- ========================================== -->
+        <h2 class="section-title">Annales Oralité 2023-2024</h2>
+
+        <!-- Question 1 -->
+        <div class="question">
+            <h3>1. Citer 3 fonctions principales de la sphère orale :</h3>
+            <textarea rows="3" placeholder="Tapez votre réponse ici..."></textarea>
+            <button type="button" onclick="document.getElementById('explanation_23_1').style.display = 'block'">Valider</button>
+            <div class="explanation" id="explanation_23_1">
+                <div class="result">Réponse attendue :</div>
+                <p>Alimentation, respiration, phonation.</p>
+            </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="question">
+            <h3>2. Citer 3 fonctions secondaires de la sphère orale :</h3>
+            <textarea rows="3" placeholder="Tapez votre réponse ici..."></textarea>
+            <button type="button" onclick="document.getElementById('explanation_23_2').style.display = 'block'">Valider</button>
+            <div class="explanation" id="explanation_23_2">
+                <div class="result">Réponse attendue :</div>
+                <p>Bâiller, sourire, embrasser, pleurer, mordre.</p>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question">
+            <h3>3. Citer 3 fonctions anti-aborales :</h3>
+            <textarea rows="3" placeholder="Tapez votre réponse ici..."></textarea>
+            <button type="button" onclick="document.getElementById('explanation_23_3').style.display = 'block'">Valider</button>
+            <div class="explanation" id="explanation_23_3">
+                <div class="result">Réponse attendue :</div>
+                <p>Vomir, régurgiter, éructer, cracher, tousser.</p>
+            </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="question">
+            <h3>4. Quel système partage le même tissu embryologique que le système digestif ?</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Système veineux</div>
+                <div class="option" onclick="toggleSelection(this)">B. Système artériel</div>
+                <div class="option" onclick="toggleSelection(this)">C. Système nerveux central</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_23_4', ['C'])">Valider</button>
+            <div class="explanation" id="explanation_23_4">
+                <div class="result">Bonne réponse : C. Système nerveux central</div>
+                <p>Explication : Le système nerveux central dérive de l'ectoderme, tout comme les extrémités du tube digestif (bouche et rectum).</p>
+            </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="question">
+            <h3>5. Citer 3 systèmes de l'oralité alimentaire en élaboration in utero (IU) :</h3>
+            <textarea rows="3" placeholder="Tapez votre réponse ici..."></textarea>
+            <button type="button" onclick="document.getElementById('explanation_23_5').style.display = 'block'">Valider</button>
+            <div class="explanation" id="explanation_23_5">
+                <div class="result">Réponse attendue :</div>
+                <p>Système sensoriel (tactile, olfactif, gustatif, auditif, visuel + vestibulaire), digestif, lingual, manducateur, nerveux ou hormonal.</p>
+            </div>
+        </div>
+
+        <!-- Question 6 -->
+        <div class="question">
+            <h3>6. In utero (IU), le début de l'alimentation nutritionnelle fonctionnelle débute à :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. 28 semaines</div>
+                <div class="option" onclick="toggleSelection(this)">B. 32 semaines</div>
+                <div class="option" onclick="toggleSelection(this)">C. 41 semaines</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_23_6', ['B'])">Valider</button>
+            <div class="explanation" id="explanation_23_6">
+                <div class="result">Bonne réponse : B. 32 semaines</div>
+                <p>Explication : Autour de 32 SA se met en place une coordination succion-déglutition permettant les prémices d'une alimentation fonctionnelle.</p>
+            </div>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="question">
+            <h3>7. Citer 2 points de l'alimentation immatures à la naissance :</h3>
+            <textarea rows="3" placeholder="Tapez votre réponse ici..."></textarea>
+            <button type="button" onclick="document.getElementById('explanation_23_7').style.display = 'block'">Valider</button>
+            <div class="explanation" id="explanation_23_7">
+                <div class="result">Réponse attendue :</div>
+                <p>Coordination alimentation-ventilation, motricité digestive, contrôle de la faim et satiété, régulation neuro-végétative.</p>
+            </div>
+        </div>
+
+        <!-- Question 8 -->
+        <div class="question">
+            <h3>8. Les réflexes archaïques sont régis par :</h3>
+            <textarea rows="3" placeholder="Tapez votre réponse ici..."></textarea>
+            <button type="button" onclick="document.getElementById('explanation_23_8').style.display = 'block'">Valider</button>
+            <div class="explanation" id="explanation_23_8">
+                <div class="result">Réponse attendue :</div>
+                <p>Le tronc cérébral.</p>
+            </div>
+        </div>
+
+        <!-- Question 9 -->
+        <div class="question">
+            <h3>9. Quels sont les signaux d'alerte des Troubles de l'Alimentation et de la Prémastication / Pédiatriques (TAP) :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. La distraction importante lors des repas</div>
+                <div class="option" onclick="toggleSelection(this)">B. La sélectivité alimentaire (moins de 20 aliments à 18 mois et +)</div>
+                <div class="option" onclick="toggleSelection(this)">C. Le refus des morceaux après 18 mois</div>
+                <div class="option" onclick="toggleSelection(this)">D. Une irritabilité sensorielle</div>
+                <div class="option" onclick="toggleSelection(this)">E. Des hauts-le-cœur fréquents</div>
+                <div class="option" onclick="toggleSelection(this)">F. L'utilisation de renforçateurs</div>
+                <div class="option" onclick="toggleSelection(this)">G. Une durée des repas supérieure à 20 minutes</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_23_9', ['B', 'C', 'D', 'E'])">Valider</button>
+            <div class="explanation" id="explanation_23_9">
+                <div class="result">Bonnes réponses : B, C, D et E</div>
+                <p>Explication : La sélectivité sévère (&lt; 20 aliments à 18 mois), le refus persistant des textures après 18 mois, l'hypersensibilité/irritabilité sensorielle et les réflexes nauséeux/hauts-le-cœur fréquents constituent les signaux d'alerte majeurs.</p>
+            </div>
+        </div>
+
+        <!-- Question 10 -->
+        <div class="question">
+            <h3>10. Concernant la nutrition entérale par gastrostomie chez l'enfant :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Peut se poser par voie endoscopique ou chirurgicale</div>
+                <div class="option" onclick="toggleSelection(this)">B. Est une solution définitive</div>
+                <div class="option" onclick="toggleSelection(this)">C. Nécessite le passage d'une infirmière</div>
+                <div class="option" onclick="toggleSelection(this)">D. Couvre la totalité des apports alimentaires</div>
+                <div class="option" onclick="toggleSelection(this)">E. Ne permet plus l'alimentation orale</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_23_10', ['A'])">Valider</button>
+            <div class="explanation" id="explanation_23_10">
+                <div class="result">Bonne réponse : A. Peut se poser par voie endoscopique ou chirurgicale</div>
+                <p>Explication : La gastrostomie n'est pas définitive, peut être partielle (n'exclut pas les stimulations orales/alimentation orale résiduelle) et les soins/branchements peuvent être formés et réalisés par les parents.</p>
+            </div>
+        </div>
+
+        <!-- Question 11 -->
+        <div class="question">
+            <h3>11. L'hormone responsable de l'éjection du lait est :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Ocytocine</div>
+                <div class="option" onclick="toggleSelection(this)">B. Prolactine</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_23_11', ['A'])">Valider</button>
+            <div class="explanation" id="explanation_23_11">
+                <div class="result">Bonne réponse : A. Ocytocine</div>
+                <p>Explication : La prolactine est responsable de la production/synthèse du lait, tandis que l'ocytocine assure le réflexe d'éjection via la contraction des cellules myoépithéliales.</p>
+            </div>
+        </div>
+
+        <!-- Question 12 -->
+        <div class="question">
+            <h3>12. L'allaitement contribue à réguler les rythmes circadiens.</h3>
+            <div class="options">
+                <div class="option" onclick="checkAnswer(this, 'vrai', 'explanation_23_12')">Vrai</div>
+                <div class="option" onclick="checkAnswer(this, 'vrai', 'explanation_23_12')">Faux</div>
+            </div>
+            <div class="explanation" id="explanation_23_12">
+                <div class="result">Réponse : VRAI</div>
+                <p>Explication : La composition du lait varie au cours du nycthémère (ex. présence nocturne de mélatonine et de tryptophane) contribuant à l'horloge biologique du nouveau-né.</p>
+            </div>
+        </div>
+
+        <!-- Question 13 -->
+        <div class="question">
+            <h3>13. Au sujet de l'allaitement :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. La composition du lait maternel évolue au cours d'une tétée</div>
+                <div class="option" onclick="toggleSelection(this)">B. Le lait maternisé est plus digeste que le lait maternel</div>
+                <div class="option" onclick="toggleSelection(this)">C. L'allaitement maternel favorise le lien d'attachement mère-enfant</div>
+                <div class="option" onclick="toggleSelection(this)">D. L'allaitement doit impérativement être démarré dans l'heure qui suit la naissance</div>
+                <div class="option" onclick="toggleSelection(this)">E. Le manque de sommeil et le stress chez la mère peuvent entraîner une diminution de la lactation</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_23_13', ['A', 'C', 'E'])">Valider</button>
+            <div class="explanation" id="explanation_23_13">
+                <div class="result">Bonnes réponses : A, C et E</div>
+                <p>Explication : Le lait s'enrichit en lipides au fur et à mesure de la tétée. Le lait maternel est le plus digestible (vidange gastrique plus rapide). Le stress inhibe le réflexe ocytocique.</p>
+            </div>
+        </div>
+
+        <!-- Question 14 -->
+        <div class="question">
+            <h3>14. La coordination succion/déglutition est mature à 32 SA.</h3>
+            <div class="options">
+                <div class="option" onclick="checkAnswer(this, 'vrai', 'explanation_23_14')">Vrai</div>
+                <div class="option" onclick="checkAnswer(this, 'vrai', 'explanation_23_14')">Faux</div>
+            </div>
+            <div class="explanation" id="explanation_23_14">
+                <div class="result">Réponse : VRAI</div>
+                <p>Explication : La succion/déglutition se coordonne vers 32-34 SA (la triade succion-déglutition-respiration demande en revanche 34 à 37 SA).</p>
+            </div>
+        </div>
+
+        <!-- Question 15 -->
+        <div class="question">
+            <h3>15. La succion non-nutritive est inutile au sein.</h3>
+            <div class="options">
+                <div class="option" onclick="checkAnswer(this, 'faux', 'explanation_23_15')">Vrai</div>
+                <div class="option" onclick="checkAnswer(this, 'faux', 'explanation_23_15')">Faux</div>
+            </div>
+            <div class="explanation" id="explanation_23_15">
+                <div class="result">Réponse : FAUX</div>
+                <p>Explication : Elle stimule la lactation, apaise le nourrisson, favorise la digestion et l'organisation neuro-comportementale.</p>
+            </div>
+        </div>
+
+        <!-- Question 16 -->
+        <div class="question">
+            <h3>16. La coordination succion-déglutition-respiration est mature à 32 SA :</h3>
+            <div class="options">
+                <div class="option" onclick="checkAnswer(this, 'faux', 'explanation_23_16')">Vrai</div>
+                <div class="option" onclick="checkAnswer(this, 'faux', 'explanation_23_16')">Faux</div>
+            </div>
+            <div class="explanation" id="explanation_23_16">
+                <div class="result">Réponse : FAUX</div>
+                <p>Explication : La coordination complète succion-déglutition-respiration devient mature entre 34 et 37 SA.</p>
+            </div>
+        </div>
+
+        <!-- Question 17 -->
+        <div class="question">
+            <h3>17. Il existe une courbe de poids spéciale pour les enfants allaités :</h3>
+            <div class="options">
+                <div class="option" onclick="checkAnswer(this, 'vrai', 'explanation_23_17')">Vrai</div>
+                <div class="option" onclick="checkAnswer(this, 'vrai', 'explanation_23_17')">Faux</div>
+            </div>
+            <div class="explanation" id="explanation_23_17">
+                <div class="result">Réponse : VRAI</div>
+                <p>Explication : L'OMS propose des courbes de croissance de référence spécifiquement basées sur des enfants allaités au sein.</p>
+            </div>
+        </div>
+
+        <!-- Question 18 -->
+        <div class="question">
+            <h3>18. Pour être bien positionné lors de l'allaitement, le bébé a :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Les pieds libres sans appui</div>
+                <div class="option" onclick="toggleSelection(this)">B. Les mains libres</div>
+                <div class="option" onclick="toggleSelection(this)">C. Juste le bout du mamelon en bouche</div>
+                <div class="option" onclick="toggleSelection(this)">D. Tourné ventre contre ventre à sa mère</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_23_18', ['D'])">Valider</button>
+            <div class="explanation" id="explanation_23_18">
+                <div class="result">Bonne réponse : D. Tourné ventre contre ventre à sa mère</div>
+                <p>Explication : L'alignement tête-cou-tronc face au sein (ventre contre ventre) et une grande prise d'aréole (et non du seul mamelon) sont indispensables.</p>
+            </div>
+        </div>
+
+        <!-- Question 19 -->
+        <div class="question">
+            <h3>19. Pourquoi parle-t-on de "dyade" ou de "paire" dans l'allaitement :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Il y a deux seins</div>
+                <div class="option" onclick="toggleSelection(this)">B. L'enfant et la mère ont tous deux un rôle à jouer</div>
+                <div class="option" onclick="toggleSelection(this)">C. La lactation est entretenue selon plusieurs phénomènes qui lient la mère et l'enfant</div>
+                <div class="option" onclick="toggleSelection(this)">D. On doit s'intéresser à l'observation de la tétée de chaque sein</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_23_19', ['B', 'C'])">Valider</button>
+            <div class="explanation" id="explanation_23_19">
+                <div class="result">Bonnes réponses : B et C</div>
+                <p>Explication : Il s'agit d'une interaction réciproque où chaque partenaire influence directement la physiologie et le comportement de l'autre.</p>
+            </div>
+        </div>
+
+        <!-- Question 20 -->
+        <div class="question">
+            <h3>20. Les appuis sous les pieds en cas de tétée permettent :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. La stabilité</div>
+                <div class="option" onclick="toggleSelection(this)">B. La stimulation des réflexes archaïques en lien avec l'allaitement</div>
+                <div class="option" onclick="toggleSelection(this)">C. D'exprimer le réflexe d'éjection du lait</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_23_20', ['A', 'B'])">Valider</button>
+            <div class="explanation" id="explanation_23_20">
+                <div class="result">Bonnes réponses : A et B</div>
+                <p>Explication : Les appuis podaux procurent une stabilité axiale et activent les chaînes musculaires et réflexes soutenant l'enracinement et la succion.</p>
+            </div>
+        </div>
+
+        <!-- Question 21 -->
+        <div class="question">
+            <h3>21. À 1 an le bébé continue à boire environ :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. 300 ml / jour</div>
+                <div class="option" onclick="toggleSelection(this)">B. 200 ml / jour</div>
+                <div class="option" onclick="toggleSelection(this)">C. 500 ml / jour</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_23_21', ['C'])">Valider</button>
+            <div class="explanation" id="explanation_23_21">
+                <div class="result">Bonne réponse : C. 500 ml / jour</div>
+                <p>Explication : À l'âge de 1 an, l'apport lacté recommandé reste d'environ 500 ml par 24 heures.</p>
+            </div>
+        </div>
+
+        <!-- Question 22 -->
+        <div class="question">
+            <h3>22. Quel est le principal inconvénient des petits pots industriels ?</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Ils entraînent des carences alimentaires</div>
+                <div class="option" onclick="toggleSelection(this)">B. Ils sont moins savoureux que les préparations maison</div>
+                <div class="option" onclick="toggleSelection(this)">C. Ils contiennent des colorants et conservateurs</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_23_22', ['B'])">Valider</button>
+            <div class="explanation" id="explanation_23_22">
+                <div class="result">Bonne réponse : B. Ils sont moins savoureux que les préparations maison</div>
+                <p>Explication : La réglementation infantile interdit les conservateurs et colorants dans les petits pots, mais la pasteurisation standardise et réduit la richesse sensorielle gustative.</p>
+            </div>
+        </div>
+
+        <!-- Question 23 -->
+        <div class="question">
+            <h3>23. En cas d'allergie aux protéines de lait de vache (APLV), il est conseillé de proposer du lait de chèvre :</h3>
+            <div class="options">
+                <div class="option" onclick="checkAnswer(this, 'faux', 'explanation_23_23')">Vrai</div>
+                <div class="option" onclick="checkAnswer(this, 'faux', 'explanation_23_23')">Faux</div>
+            </div>
+            <div class="explanation" id="explanation_23_23">
+                <div class="result">Réponse : FAUX</div>
+                <p>Explication : En raison d'un taux de réactions croisées très élevé (proche de 90%) entre les protéines de lait de vache et de chèvre, cette substitution est formellement déconseillée.</p>
+            </div>
+        </div>
+
+        <!-- Question 28 -->
+        <div class="question">
+            <h3>28. L'étiologie de la béance antérieure peut être :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Squelettique</div>
+                <div class="option" onclick="toggleSelection(this)">B. L'évolution incomplète des incisives</div>
+                <div class="option" onclick="toggleSelection(this)">C. L'interposition digitale</div>
+                <div class="option" onclick="toggleSelection(this)">D. La position linguale antérieure</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_23_28', ['A', 'C', 'D'])">Valider</button>
+            <div class="explanation" id="explanation_23_28">
+                <div class="result">Bonnes réponses : A, C et D</div>
+                <p>Explication : La béance peut être d'origine osseuse (dysmorphose squelettique de classe II/hyperdivergente) ou dysfonctionnelle (succion du pouce, interposition et propulsion linguale basse).</p>
+            </div>
+        </div>
+
+        <!-- Question 30 -->
+        <div class="question">
+            <h3>30. Quelle est la dent dont le numéro correspondant de la nomenclature internationale FDI est le 16 :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. La dent de 6 ans maxillaire droite</div>
+                <div class="option" onclick="toggleSelection(this)">B. La 1ère molaire mandibulaire droite</div>
+                <div class="option" onclick="toggleSelection(this)">C. La 1ère molaire maxillaire droite</div>
+                <div class="option" onclick="toggleSelection(this)">D. La 1ère molaire temporaire maxillaire droite</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_23_30', ['A', 'C'])">Valider</button>
+            <div class="explanation" id="explanation_23_30">
+                <div class="result">Bonnes réponses : A et C</div>
+                <p>Explication : Le quadrant 1 est le maxillaire droit, la 6ème dent est la 1ère molaire permanente (surnommée « dent de 6 ans »).</p>
+            </div>
+        </div>
+
+        <!-- Question 31 -->
+        <div class="question">
+            <h3>31. Quelles sont les affirmations exactes concernant les arcades et cavités orales :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Les canines sont des dents antérieures</div>
+                <div class="option" onclick="toggleSelection(this)">B. Les canines sont des dents postérieures</div>
+                <div class="option" onclick="toggleSelection(this)">C. Les joues constituent la paroi latérale de la cavité orale</div>
+                <div class="option" onclick="toggleSelection(this)">D. La langue et la région sublinguale constituent la limite supérieure de la cavité orale</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_23_31', ['A', 'C'])">Valider</button>
+            <div class="explanation" id="explanation_23_31">
+                <div class="result">Bonnes réponses : A et C</div>
+                <p>Explication : Le bloc incisivo-canin compose les dents antérieures. Les joues forment les parois latérales. Le plancher buccal (et non la limite supérieure qui est le palais) soutient la région sublinguale.</p>
+            </div>
+        </div>
+
+        <!-- Question 34 -->
+        <div class="question">
+            <h3>34. Quel(s) est (sont) le(s) signe(s) d'une paralysie faciale périphérique :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Abaissement du sourcil</div>
+                <div class="option" onclick="toggleSelection(this)">B. Exagération des rides du front</div>
+                <div class="option" onclick="toggleSelection(this)">C. Exagération du sillon naso-génien</div>
+                <div class="option" onclick="toggleSelection(this)">D. Attraction de la bouche vers le côté paralysé</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_23_34', ['A'])">Valider</button>
+            <div class="explanation" id="explanation_23_34">
+                <div class="result">Bonne réponse : A. Abaissement du sourcil</div>
+                <p>Explication : Du côté atteint, les rides du front s'effacent, le sourcil s'abaisse, le sillon naso-génien s'efface et la commissure labiale est attirée vers le côté sain.</p>
+            </div>
+        </div>
+
+        <!-- Question 36 -->
+        <div class="question">
+            <h3>36. Concernant les muscles de la face :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Le SMAS est superficiel</div>
+                <div class="option" onclick="toggleSelection(this)">B. Ils sont tous innervés par le nerf V (trijumeau)</div>
+                <div class="option" onclick="toggleSelection(this)">C. Ils sont innervés par le nerf VII (nerf facial)</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_23_36', ['A', 'C'])">Valider</button>
+            <div class="explanation" id="explanation_23_36">
+                <div class="result">Bonnes réponses : A et C</div>
+                <p>Explication : Les muscles peauciers de la face sont sous-cutanés (en lien avec le système musculo-aponévrotique superficiel) et sont tous innervés motricement par le nerf facial (VII) et non le trijumeau (V) qui est masticateur et sensitif.</p>
+            </div>
+        </div>
+
+        <!-- ========================================== -->
+        <!-- SECTION 2 : ANCIENNES ANNALES ORALITÉ      -->
+        <!-- ========================================== -->
+        <h2 class="section-title">Anciennes Annales - Questions Générales</h2>
+
+        <!-- Question AA 1 -->
+        <div class="question">
+            <h3>1. À quel feuillet embryologique appartient le système digestif ?</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Endoderme pour le tube digestif principal</div>
+                <div class="option" onclick="toggleSelection(this)">B. Ectoderme pour la cavité buccale et le canal anal</div>
+                <div class="option" onclick="toggleSelection(this)">C. Uniquement le mésoderme</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_aa_1', ['A', 'B'])">Valider</button>
+            <div class="explanation" id="explanation_aa_1">
+                <div class="result">Bonnes réponses : A et B</div>
+                <p>Explication : La majorité de l'épithélium digestif dérive de l'endoderme, alors que la bouche (stomodeum) et l'extrémité rectale (proctodeum) dérivent de l'ectoderme.</p>
+            </div>
+        </div>
+
+        <!-- Question AA 6 -->
+        <div class="question">
+            <h3>6. La langue a-t-elle un effet sur la croissance du maxillaire supérieur ?</h3>
+            <div class="options">
+                <div class="option" onclick="checkAnswer(this, 'vrai', 'explanation_aa_6')">Vrai</div>
+                <div class="option" onclick="checkAnswer(this, 'vrai', 'explanation_aa_6')">Faux</div>
+            </div>
+            <div class="explanation" id="explanation_aa_6">
+                <div class="result">Réponse : VRAI</div>
+                <p>Explication : Par sa posture haute au palais et la pression exercée lors de la déglutition, la langue sert de conformateur et stimule l'expansion transversale et sagittale du maxillaire.</p>
+            </div>
+        </div>
+
+        <!-- Question AA 7 -->
+        <div class="question">
+            <h3>7. À combien de semaines d'aménorrhée peut-on considérer qu'une naissance est à terme ?</h3>
+            <textarea rows="2" placeholder="Tapez votre réponse ici..."></textarea>
+            <button type="button" onclick="document.getElementById('explanation_aa_7').style.display = 'block'">Valider</button>
+            <div class="explanation" id="explanation_aa_7">
+                <div class="result">Réponse attendue :</div>
+                <p>À partir de 37 SA jusqu'à 41 SA (soit à partir du 8e mois et demi révolu).</p>
+            </div>
+        </div>
+
+        <!-- Question AA 8 -->
+        <div class="question">
+            <h3>8. Une ventilation principalement orale a un effet sur la croissance du maxillaire supérieur :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Positif</div>
+                <div class="option" onclick="toggleSelection(this)">B. Négatif</div>
+                <div class="option" onclick="toggleSelection(this)">C. Neutre</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_aa_8', ['B'])">Valider</button>
+            <div class="explanation" id="explanation_aa_8">
+                <div class="result">Bonne réponse : B. Négatif</div>
+                <p>Explication : Elle engendre une langue basse, une absence de stimulation palatine, favorisant un palais ogival étroit et un déficit transversal maxillaire.</p>
+            </div>
+        </div>
+
+        <!-- Question AA 11 -->
+        <div class="question">
+            <h3>11. Le réflexe de déglutition apparaît vers 12-14 SA et précède le réflexe de succion (14-15 SA).</h3>
+            <div class="options">
+                <div class="option" onclick="checkAnswer(this, 'vrai', 'explanation_aa_11')">Vrai</div>
+                <div class="option" onclick="checkAnswer(this, 'vrai', 'explanation_aa_11')">Faux</div>
+            </div>
+            <div class="explanation" id="explanation_aa_11">
+                <div class="result">Réponse : VRAI</div>
+                <p>Explication : La déglutition du liquide amniotique apparaît vers 12 à 14 SA, précédant la succion fœtale active (14-15 SA).</p>
+            </div>
+        </div>
+
+        <!-- Question AA 13 -->
+        <div class="question">
+            <h3>13. Il est plus facile de rééduquer la position de la langue si l'enfant ventile principalement par la bouche.</h3>
+            <div class="options">
+                <div class="option" onclick="checkAnswer(this, 'faux', 'explanation_aa_13')">Vrai</div>
+                <div class="option" onclick="checkAnswer(this, 'faux', 'explanation_aa_13')">Faux</div>
+            </div>
+            <div class="explanation" id="explanation_aa_13">
+                <div class="result">Réponse : FAUX</div>
+                <p>Explication : La respiration buccale impose une position linguale abaissée pour laisser passer l'air ; rétablir une respiration nasale est le préalable indispensable pour automatiser la position haute de repos.</p>
+            </div>
+        </div>
+
+        <!-- Question AA 14 -->
+        <div class="question">
+            <h3>14. Anatomie du nerf facial (VII) en extracrânien : par où sort-il et quelle glande traverse-t-il ?</h3>
+            <textarea rows="3" placeholder="Tapez votre réponse ici..."></textarea>
+            <button type="button" onclick="document.getElementById('explanation_aa_14').style.display = 'block'">Valider</button>
+            <div class="explanation" id="explanation_aa_14">
+                <div class="result">Réponse attendue :</div>
+                <p>Il émerge de la base du crâne par le foramen stylo-mastoïdien, pénètre dans la glande parotide et s'y divise en deux rameaux principaux : temporo-facial et cervico-facial.</p>
+            </div>
+        </div>
+
+        <!-- Question AA 15 -->
+        <div class="question">
+            <h3>15. Où la langue doit-elle se situer en position physiologique de repos ?</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. En bas sur le plancher buccal</div>
+                <div class="option" onclick="toggleSelection(this)">B. Appuyée contre la face arrière des dents incisives</div>
+                <div class="option" onclick="toggleSelection(this)">C. En haut collée contre le palais, pointe aux papilles rétro-incisives sans toucher les dents</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_aa_15', ['C'])">Valider</button>
+            <div class="explanation" id="explanation_aa_15">
+                <div class="result">Bonne réponse : C</div>
+                <p>Explication : Au repos, l'apex est posé sur la papille palatine, le dos de la langue est appliqué contre la voûte du palais dur, sans contact d'interposition dentaire.</p>
+            </div>
+        </div>
+
+        <!-- Question AA 16 -->
+        <div class="question">
+            <h3>16. Concernant le sphincter vélo-pharyngé, il intervient dans :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Phonation</div>
+                <div class="option" onclick="toggleSelection(this)">B. Déglutition</div>
+                <div class="option" onclick="toggleSelection(this)">C. Salivation</div>
+                <div class="option" onclick="toggleSelection(this)">D. Aération de la trompe d'Eustache (TE)</div>
+                <div class="option" onclick="toggleSelection(this)">E. Respiration</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_aa_16', ['A', 'B', 'D', 'E'])">Valider</button>
+            <div class="explanation" id="explanation_aa_16">
+                <div class="result">Bonnes réponses : A, B, D et E</div>
+                <p>Explication : Il assure l'étanchéité naso-pharyngée pendant la parole et la déglutition, régule le flux respiratoire et intervient dans l'aération tubaire via les muscles tenseurs/élévateurs du voile.</p>
+            </div>
+        </div>
+
+        <!-- Question AA 24 -->
+        <div class="question">
+            <h3>24. Concernant les mouvements mandibulaires :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Propulsion = avancée de la mandibule</div>
+                <div class="option" onclick="toggleSelection(this)">B. Diduction = avancée de la mandibule</div>
+                <div class="option" onclick="toggleSelection(this)">C. Propulsion = mouvement latéral de la mandibule</div>
+                <div class="option" onclick="toggleSelection(this)">D. Diduction = mouvement latéral de la mandibule</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_aa_24', ['A', 'D'])">Valider</button>
+            <div class="explanation" id="explanation_aa_24">
+                <div class="result">Bonnes réponses : A et D</div>
+                <p>Explication : La propulsion correspond au déplacement antérieur de la mandibule, la diduction à un déplacement transversal/latéral droit ou gauche.</p>
+            </div>
+        </div>
+
+        <!-- Question AA 28 -->
+        <div class="question">
+            <h3>28. La séquence de Pierre Robin associe classiquement :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Rétrognathie (mandibulaire)</div>
+                <div class="option" onclick="toggleSelection(this)">B. Glossoptose</div>
+                <div class="option" onclick="toggleSelection(this)">C. Fente vélopalatine</div>
+                <div class="option" onclick="toggleSelection(this)">D. Prognathisme mandibulaire</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_aa_28', ['A', 'B', 'C'])">Valider</button>
+            <div class="explanation" id="explanation_aa_28">
+                <div class="result">Bonnes réponses : A, B et C</div>
+                <p>Explication : La triade caractéristique regroupe micro/rétrognathisme, chute postérieure de la langue (glossoptose) créant un risque asphyxique, et fente division vélo-palatine.</p>
+            </div>
+        </div>
+
+        <!-- ========================================== -->
+        <!-- SECTION 3 : ANNALES ORALITÉ 2021-2022      -->
+        <!-- ========================================== -->
+        <h2 class="section-title">Annales Oralité 2021-2022</h2>
+
+        <!-- Question 21_1 -->
+        <div class="question">
+            <h3>1. La déglutition atypique :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Est aussi appelée dysfonctionnelle</div>
+                <div class="option" onclick="toggleSelection(this)">B. S'oppose à la déglutition physiologique ou adulte</div>
+                <div class="option" onclick="toggleSelection(this)">C. Concerne environ 25% des adultes</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_21_1', ['A', 'B'])">Valider</button>
+            <div class="explanation" id="explanation_21_1">
+                <div class="result">Bonnes réponses : A et B</div>
+                <p>Explication : Elle se caractérise par la persistance de mouvements de succion-déglutition avec interposition de la langue et contraction périlabiale, s'opposant au mode mature.</p>
+            </div>
+        </div>
+
+        <!-- Question 21_2 -->
+        <div class="question">
+            <h3>2. Les conséquences d'une déglutition primaire (atypique) persistante peuvent être :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Des malpositions dentaires</div>
+                <div class="option" onclick="toggleSelection(this)">B. Un déchaussement des dents</div>
+                <div class="option" onclick="toggleSelection(this)">C. Des troubles de l'articulation de la parole</div>
+                <div class="option" onclick="toggleSelection(this)">D. Une irritation des voies respiratoires plus importante</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_21_2', ['A', 'B', 'C', 'D'])">Valider</button>
+            <div class="explanation" id="explanation_21_2">
+                <div class="result">Bonnes réponses : A, B, C et D</div>
+                <p>Explication : Les forces anormales créent des dysmorphoses dento-alvéolaires, des atteintes parodontales, des sigmatismes (zézaiements) et accompagnent souvent une respiration buccale irritante pour l'arbre respiratoire.</p>
+            </div>
+        </div>
+
+        <!-- Question 21_3 -->
+        <div class="question">
+            <h3>3. Évolution de la déglutition :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Le réflexe de succion commence au 4ème mois in utero environ</div>
+                <div class="option" onclick="toggleSelection(this)">B. Les premières déglutitions concernent le liquide amniotique</div>
+                <div class="option" onclick="toggleSelection(this)">C. Lors de la succion au sein, le bébé ne peut pas stabiliser sa mandibule par rapport au crâne</div>
+                <div class="option" onclick="toggleSelection(this)">D. La langue est placée entre les deux bourrelets gingivaux chez le nouveau-né</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_21_3', ['A', 'B', 'D'])">Valider</button>
+            <div class="explanation" id="explanation_21_3">
+                <div class="result">Bonnes réponses : A, B et D</div>
+                <p>Explication : La succion débute vers 14-16 SA. Chez le nourrisson, la langue s'interpose physiologiquement entre les bourrelets gingivaux.</p>
+            </div>
+        </div>
+
+        <!-- Question 21_4 -->
+        <div class="question">
+            <h3>4. Évolution de la déglutition et mastication :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. La denture lactéale se met en place entre 0 et 4 ans</div>
+                <div class="option" onclick="toggleSelection(this)">B. La mastication inhibe le réflexe de succion</div>
+                <div class="option" onclick="toggleSelection(this)">C. L'apparition des canines permet la mastication</div>
+                <div class="option" onclick="toggleSelection(this)">D. La mise en place de la mastication nécessite une maturation proprioceptive et affective</div>
+                <div class="option" onclick="toggleSelection(this)">E. Les dents font barrière et la langue recule</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_21_4', ['B', 'D', 'E'])">Valider</button>
+            <div class="explanation" id="explanation_21_4">
+                <div class="result">Bonnes réponses : B, D et E</div>
+                <p>Explication : La mastication (induite d'abord par les molaires temporaires) inhibe progressivement la succion réflexe ; l'éruption dentaire guide le recul de la langue à l'intérieur des arcades.</p>
+            </div>
+        </div>
+
+        <!-- Question 21_5 -->
+        <div class="question">
+            <h3>5. La position de la langue n'a pas d'impact sur la forme de la face.</h3>
+            <div class="options">
+                <div class="option" onclick="checkAnswer(this, 'faux', 'explanation_21_5')">Vrai</div>
+                <div class="option" onclick="checkAnswer(this, 'faux', 'explanation_21_5')">Faux</div>
+            </div>
+            <div class="explanation" id="explanation_21_5">
+                <div class="result">Réponse : FAUX</div>
+                <p>Explication : La langue est le principal moteur fonctionnel guidant la croissance et la morphologie maxillo-faciale.</p>
+            </div>
+        </div>
+
+        <!-- Question 21_6 -->
+        <div class="question">
+            <h3>6. La position des dents est due à un équilibre neuromusculaire entre les lèvres et la langue.</h3>
+            <div class="options">
+                <div class="option" onclick="checkAnswer(this, 'vrai', 'explanation_21_6')">Vrai</div>
+                <div class="option" onclick="checkAnswer(this, 'vrai', 'explanation_21_6')">Faux</div>
+            </div>
+            <div class="explanation" id="explanation_21_6">
+                <div class="result">Réponse : VRAI</div>
+                <p>Explication : C'est le concept du couloir d'équilibre musculaire ou « couloir de Brodie/Château » entre sangle labio-jugale externe et masse linguale interne.</p>
+            </div>
+        </div>
+
+        <!-- Question 21_7 -->
+        <div class="question">
+            <h3>7. Lors de la déglutition salivaire physiologique (adulte) :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. L'apex touche les incisives</div>
+                <div class="option" onclick="toggleSelection(this)">B. Contraction des muscles masséters</div>
+                <div class="option" onclick="toggleSelection(this)">C. Masse linguale contenue devant les arcades dentaires</div>
+                <div class="option" onclick="toggleSelection(this)">D. Arcades dentaires en contact (occlusion)</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_21_7', ['B', 'D'])">Valider</button>
+            <div class="explanation" id="explanation_21_7">
+                <div class="result">Bonnes réponses : B et D</div>
+                <p>Explication : Les arcades sont stabilisées en occlusion par les masséters, sans participation de la musculature péri-orale et sans pulsion linguale antérieure.</p>
+            </div>
+        </div>
+
+        <!-- Question 21_8 -->
+        <div class="question">
+            <h3>8. Quels signes cliniques caractérisent la déglutition atypique :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Contraction du muscle mentonnier</div>
+                <div class="option" onclick="toggleSelection(this)">B. Utilisation des joues pour aspiration (buccinateurs)</div>
+                <div class="option" onclick="toggleSelection(this)">C. Interposition ou propulsion linguale interdentaire</div>
+                <div class="option" onclick="toggleSelection(this)">D. Absence de contraction des lèvres</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_21_8', ['A', 'B', 'C'])">Valider</button>
+            <div class="explanation" id="explanation_21_8">
+                <div class="result">Bonnes réponses : A, B et C</div>
+                <p>Explication : La persistance de crispations des lèvres, du mentonnier et des joues pour étanchéifier lors de la propulsion de la langue est pathognomonique.</p>
+            </div>
+        </div>
+
+        <!-- Question 21_9 -->
+        <div class="question">
+            <h3>9. L'arcade temporaire (dents de lait) est composée de :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. 20 dents en tout</div>
+                <div class="option" onclick="toggleSelection(this)">B. 32 dents en tout</div>
+                <div class="option" onclick="toggleSelection(this)">C. Les canines sont les premières dents à apparaître</div>
+                <div class="option" onclick="toggleSelection(this)">D. À 2 ans et demi - 3 ans, l'arcade est généralement complète</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_21_9', ['A', 'D'])">Valider</button>
+            <div class="explanation" id="explanation_21_9">
+                <div class="result">Bonnes réponses : A et D</div>
+                <p>Explication : La denture déciduale comprend 20 dents (8 incisives, 4 canines, 8 molaires temporaires). Les premières à faire leur éruption sont les incisives centrales mandibulaires (vers 6 mois).</p>
+            </div>
+        </div>
+
+        <!-- Question 21_10 -->
+        <div class="question">
+            <h3>10. Dans le cadre de la Diversification Menée par l'Enfant (DME), la première condition indispensable est :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. La position assise acquise et stable sans soutien</div>
+                <div class="option" onclick="toggleSelection(this)">B. La marche acquise</div>
+                <div class="option" onclick="toggleSelection(this)">C. L'apparition des molaires</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_21_10', ['A'])">Valider</button>
+            <div class="explanation" id="explanation_21_10">
+                <div class="result">Bonne réponse : A. La position assise acquise</div>
+                <p>Explication : La stabilité du tronc et le bon contrôle céphalique (vers 6 mois) sont indispensables pour permettre la manipulation sécuritaire des morceaux et prévenir les fausses routes.</p>
+            </div>
+        </div>
+
+        <!-- Question 21_11 -->
+        <div class="question">
+            <h3>11. Les crèches ont :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. L'obligation d'accueillir les enfants porteurs de handicap ou maladie chronique</div>
+                <div class="option" onclick="toggleSelection(this)">B. Aucune obligation d'accueil</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(this, 'explanation_21_11', ['A'])">Valider</button>
+            <div class="explanation" id="explanation_21_11">
+                <div class="result">Bonne réponse : A. Obligation d'accueillir les enfants porteurs de handicap</div>
+                <p>Explication : La législation française et la charte nationale d'accueil du jeune enfant imposent aux Établissements d'Accueil du Jeune Enfant (EAJE) de favoriser l'inclusion des enfants en situation de handicap (mise en place d'un PAI).</p>
+            </div>
+        </div>
+
+        <a href="https://mjofrance.github.io/Orthophonie/" class="home-link">Retour à l'accueil</a>
+    </div>
+
+    <!-- Scripts de validation interactifs conformes au modèle -->
+    <script>
+        function toggleSelection(element) {
+            element.classList.toggle("selected");
+        }
+
+        function validateMultipleAnswer(btnElement, explanationId, correctAnswers) {
+            const questionElement = btnElement.parentElement;
+            const options = questionElement.querySelectorAll('.option');
+            
+            options.forEach(option => {
+                const optionLetter = option.textContent.trim().charAt(0);
+                if (correctAnswers.includes(optionLetter)) {
+                    option.classList.add("correct");
+                } else if (option.classList.contains("selected")) {
+                    option.classList.add("incorrect");
+                }
+                option.classList.remove("selected");
+            });
+
+            const expElement = document.getElementById(explanationId);
+            if (expElement) {
+                expElement.style.display = "block";
+            }
+        }
+
+        function checkAnswer(element, correctAnswer, explanationId) {
+            const options = element.parentElement.querySelectorAll('.option');
+            options.forEach(option => {
+                option.classList.remove('correct', 'incorrect');
+                const text = option.textContent.trim().toLowerCase();
+                if ((correctAnswer === 'vrai' && text === 'vrai') ||
+                    (correctAnswer === 'faux' && text === 'faux')) {
+                    option.classList.add('correct');
+                } else if (option === element) {
+                    option.classList.add('incorrect');
+                }
+            });
+
+            const expElement = document.getElementById(explanationId);
+            if (expElement) {
+                expElement.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

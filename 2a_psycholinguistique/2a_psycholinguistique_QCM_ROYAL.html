@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCM : Psycholinguistique & Troubles du Développement du Langage</title>
+    <!-- Lien vers le fichier CSS externe -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <a href="https://mjofrance.github.io/Orthophonie/" class="home-link">Retour à l'accueil</a>
+        <h1>QCM : Psycholinguistique</h1>
+
+        <!-- Section 1 : Questions à Choix Multiples et Vrai / Faux -->
+        <h2>Exercice 1 : Questions à choix unique, multiple et Vrai/Faux</h2>
+
+        <!-- Question 1 -->
+        <div class="question">
+            <h3>1. D'après Bruner, il existe une continuité fonctionnelle entre les apprentissages pré-linguistique et linguistique ?</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Vrai</div>
+                <div class="option" onclick="toggleSelection(this)">B. Faux</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(1, ['A'])">Valider</button>
+            <div class="explanation" id="explanation1">
+                <div class="result">Bonne réponse : A. Vrai</div>
+                <p>Selon Jérôme Bruner, les interactions et formats de communication pré-linguistiques fournissent l'échafaudage fonctionnel indispensable à l'émergence du langage formel.</p>
+            </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="question">
+            <h3>2. Les 2 postulats du structuralisme linguistique sont :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. L'autonomie du langage</div>
+                <div class="option" onclick="toggleSelection(this)">B. L'indépendance de la forme</div>
+                <div class="option" onclick="toggleSelection(this)">C. La dépendance contextuelle absolue</div>
+                <div class="option" onclick="toggleSelection(this)">D. La primauté exclusive de la pragmatique</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(2, ['A', 'B'])">Valider</button>
+            <div class="explanation" id="explanation2">
+                <div class="result">Bonnes réponses : A et B</div>
+                <p>Le structuralisme repose fondamentalement sur l'autonomie du langage et l'indépendance de sa forme/structure par rapport aux facteurs externes.</p>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question">
+            <h3>3. Selon Saussure, le signe linguistique relie :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Un signifiant (image acoustique / son) et un signifié (concept)</div>
+                <div class="option" onclick="toggleSelection(this)">B. Un mot et un objet réel</div>
+                <div class="option" onclick="toggleSelection(this)">C. Une syntaxe et une morphologie</div>
+                <div class="option" onclick="toggleSelection(this)">D. Une graphie et une intention</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(3, ['A'])">Valider</button>
+            <div class="explanation" id="explanation3">
+                <div class="result">Bonne réponse : A</div>
+                <p>Le signe linguistique unit non pas une chose et un nom, mais un signifiant (forme phonique / son) et un signifié (représentation mentale / concept).</p>
+            </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="question">
+            <h3>4. La dysphasie est un trouble neurodéveloppemental lié à un dysfonctionnement des aires cérébrales dédiées au traitement des informations visuelles :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Vrai</div>
+                <div class="option" onclick="toggleSelection(this)">B. Faux</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(4, ['B'])">Valider</button>
+            <div class="explanation" id="explanation4">
+                <div class="result">Bonne réponse : B. Faux</div>
+                <p>Le dysfonctionnement concerne principalement les aires dédiées au traitement des informations verbales et langagières, et non visuelles.</p>
+            </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="question">
+            <h3>5. À une semaine de vie, les bébés français réussissent à discriminer le japonais du néerlandais :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Vrai</div>
+                <div class="option" onclick="toggleSelection(this)">B. Faux</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(5, ['A'])">Valider</button>
+            <div class="explanation" id="explanation5">
+                <div class="result">Bonne réponse : A. Vrai</div>
+                <p>Dès les premiers jours de vie, les nouveau-nés sont sensibles aux propriétés rythmiques et prosodiques des langues et distinguent des langues appartenant à des classes rythmiques différentes.</p>
+            </div>
+        </div>
+
+        <!-- Question 6 -->
+        <div class="question">
+            <h3>6. Quelles sont les marges de déviance décrites par Gérard comme un signal spécifique au TDL ?</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Hyperspontanéité</div>
+                <div class="option" onclick="toggleSelection(this)">B. Dissociation automatico-volontaire</div>
+                <div class="option" onclick="toggleSelection(this)">C. Trouble de la compréhension verbale</div>
+                <div class="option" onclick="toggleSelection(this)">D. Trouble de l'évocation lexicale</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(6, ['B'])">Valider</button>
+            <div class="explanation" id="explanation6">
+                <div class="result">Bonne réponse : B. Dissociation automatico-volontaire</div>
+                <p>Chez Gérard, la dissociation automatico-volontaire et les atteintes qualitatives déviantes constituent des marqueurs cliniques clés du trouble développemental du langage (TDL).</p>
+            </div>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="question">
+            <h3>7. Les règles grammaticales sont stockées dans la mémoire sémantique :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Vrai</div>
+                <div class="option" onclick="toggleSelection(this)">B. Faux</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(7, ['B'])">Valider</button>
+            <div class="explanation" id="explanation7">
+                <div class="result">Bonne réponse : B. Faux</div>
+                <p>Dans les modèles neurocognitifs du langage (ex: modèle déclaratif/procédural d'Ullman), les règles morphosyntaxiques et grammaticales relèvent de la mémoire procédurale.</p>
+            </div>
+        </div>
+
+        <!-- Question 8 -->
+        <div class="question">
+            <h3>8. Les exceptions des règles grammaticales / les conjugaisons irrégulières sont stockées dans la mémoire déclarative :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Vrai</div>
+                <div class="option" onclick="toggleSelection(this)">B. Faux</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(8, ['A'])">Valider</button>
+            <div class="explanation" id="explanation8">
+                <div class="result">Bonne réponse : A. Vrai</div>
+                <p>Les formes irrégulières et les exceptions lexicalisées sont mémorisées comme des unités lexicales individuelles dans la mémoire déclarative.</p>
+            </div>
+        </div>
+
+        <!-- Question 9 -->
+        <div class="question">
+            <h3>9. Un enfant de 22 mois a obtenu le score d'1,6 lorsque l'on a calculé sa LME (Longueur Moyenne d'Énoncé). Cet enfant se situe :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Au stade pré-syntaxique</div>
+                <div class="option" onclick="toggleSelection(this)">B. Au stade lexical</div>
+                <div class="option" onclick="toggleSelection(this)">C. Au stade syntaxique</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(9, ['A'])">Valider</button>
+            <div class="explanation" id="explanation9">
+                <div class="result">Bonne réponse : A. Au stade pré-syntaxique</div>
+                <p>Une LME comprise entre 1 et 2 correspond au stade pré-syntaxique (énoncés de deux mots / phrases télégraphiques).</p>
+            </div>
+        </div>
+
+        <!-- Question 10 -->
+        <div class="question">
+            <h3>10. Le LAE (Langage Adressé à l'Enfant) comprend des modifications au niveau :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Phonologique</div>
+                <div class="option" onclick="toggleSelection(this)">B. Morphosyntaxique</div>
+                <div class="option" onclick="toggleSelection(this)">C. Pragmatique</div>
+                <div class="option" onclick="toggleSelection(this)">D. Lexical</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(10, ['A', 'B', 'C', 'D'])">Valider</button>
+            <div class="explanation" id="explanation10">
+                <div class="result">Bonnes réponses : A, B, C et D (Toutes les propositions)</div>
+                <p>Le LAE (ou "mamanais") se caractérise par des adaptations globales : modifications prosodiques/phonologiques (ton plus aigu, contour exagéré), lexicales (vocabulaire simplifié), syntaxiques (phrases courtes et simples) et pragmatiques (tours de parole marqués).</p>
+            </div>
+        </div>
+
+        <!-- Question 11 -->
+        <div class="question">
+            <h3>11. Un bébé n'est capable de distinguer la voix de sa mère des autres voix qu'à partir de 3 mois :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Vrai</div>
+                <div class="option" onclick="toggleSelection(this)">B. Faux</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(11, ['B'])">Valider</button>
+            <div class="explanation" id="explanation11">
+                <div class="result">Bonne réponse : B. Faux</div>
+                <p>Cette reconnaissance est active dès la naissance (et même in utero au 3e trimestre de gestation) grâce à l'exposition précoce à la prosodie maternelle.</p>
+            </div>
+        </div>
+
+        <!-- Question 12 -->
+        <div class="question">
+            <h3>12. La structuration du lexique par l'enfant est effectuée durant la première année :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Vrai</div>
+                <div class="option" onclick="toggleSelection(this)">B. Faux</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(12, ['B'])">Valider</button>
+            <div class="explanation" id="explanation12">
+                <div class="result">Bonne réponse : B. Faux</div>
+                <p>L'explosion lexicale et l'organisation sémantique structurée se développent principalement au cours de la deuxième année (autour de 18-24 mois) et se poursuivent tout au long de l'enfance.</p>
+            </div>
+        </div>
+
+        <!-- Question 13 -->
+        <div class="question">
+            <h3>13. Un enfant bilingue peut avoir un TDL dans une langue mais pas dans l'autre :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Vrai</div>
+                <div class="option" onclick="toggleSelection(this)">B. Faux</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(13, ['B'])">Valider</button>
+            <div class="explanation" id="explanation13">
+                <div class="result">Bonne réponse : B. Faux</div>
+                <p>Le TDL est un trouble neurodéveloppemental intrinsèque : il touche obligatoirement toutes les langues parlées ou acquises par l'enfant.</p>
+            </div>
+        </div>
+
+        <!-- Question 14 -->
+        <div class="question">
+            <h3>14. Seuls les enfants provenant d'un milieu économiquement faible sont susceptibles d'avoir un TDL :</h3>
+            <div class="options">
+                <div class="option" onclick="toggleSelection(this)">A. Vrai</div>
+                <div class="option" onclick="toggleSelection(this)">B. Faux</div>
+            </div>
+            <button type="button" onclick="validateMultipleAnswer(14, ['B'])">Valider</button>
+            <div class="explanation" id="explanation14">
+                <div class="result">Bonne réponse : B. Faux</div>
+                <p>Le TDL n'est pas causé par un environnement socio-économique défavorisé ; il peut survenir dans tous les milieux sociaux.</p>
+            </div>
+        </div>
+
+        <!-- Section 2 : Questions ouvertes et cas cliniques d'annales -->
+        <h2>Exercice 2 : Cas cliniques et questions rédactionnelles</h2>
+
+        <!-- Question Ouverte 1 -->
+        <div class="question">
+            <h3>1. À partir d'un exemple langagier de votre choix, montrez : a) en quoi le langage est un phénomène complexe et hétérogène, et b) ce que certaines pathologies peuvent apporter à la modélisation du langage.</h3>
+            <textarea rows="4" placeholder="Saisissez votre analyse..."></textarea>
+            <button type="button" onclick="document.getElementById('explanation_open1').style.display = 'block'">Valider</button>
+            <div class="explanation" id="explanation_open1">
+                <div class="result">Pistes d'analyse attendues :</div>
+                <p><strong>a) Complexité et hétérogénéité :</strong> Interaction simultanée de plusieurs niveaux de traitement (phonologique, lexical/sémantique, syntaxique, pragmatique et prosodique). Un simple énoncé nécessite des processus d'encodage et de décodage à la fois automatisés et sous contrôle exécutif.<br>
+                <strong>b) Apport des pathologies :</strong> La double dissociation clinique (ex: aphasies de Broca vs Wernicke, dissociation lexique/syntaxe dans les TDL ou syndromes génétiques) permet de valider les modèles modulaires cognitifs et de distinguer le stockage mnésique déclaratif des règles procédurales combinatoires.</p>
+            </div>
+        </div>
+
+        <!-- Question Ouverte 2 -->
+        <div class="question">
+            <h3>2. Cas clinique LM (6 ans 1/2) : Présentez et discutez brièvement les hypothèses que l'on pourrait faire concernant la dimension du langage problématique chez cette petite fille à partir des extraits cliniques.</h3>
+            <textarea rows="5" placeholder="Identifiez les composantes atteintes (phonologie, lexique, morphosyntaxe, pragmatique)..."></textarea>
+            <button type="button" onclick="document.getElementById('explanation_open2').style.display = 'block'">Valider</button>
+            <div class="explanation" id="explanation_open2">
+                <div class="result">Synthèse clinique attendue :</div>
+                <p>
+                    <strong>1. Niveau phonologique et praxique :</strong> Troncatures (« escago » pour escargot), déformations et substitutions phonologiques (« énectrique », « numière », « pèl »). Sensibilité à l'étayage phonologique direct.<br>
+                    <strong>2. Niveau morphosyntaxique :</strong> Dyssyntaxie majeure marquée au niveau du genre (« une pain », « une lit »), de la détermination (« a chat », « a lit »), et de la structure prédicative (« le fleur et la clé è ouvrir », « le tigre i va manger la zèbre »).<br>
+                    <strong>3. Niveau lexico-sémantique :</strong> Erreurs sémantiques ou d'accès au mot (« pizza » pour fromage, paraphasies/approximations), compensées par la description de l'usage fonctionnel (« pour coiffer les cheveux »).<br>
+                    <strong>4. Niveau pragmatique / communication :</strong> Difficulté d'inhibition et d'accès à la consigne de répétition directe, avec production d'énoncés alternatifs spontanés basés sur le contexte imagé avant compréhension complète de la tâche.
+                </p>
+            </div>
+        </div>
+
+        <a href="https://mjofrance.github.io/Orthophonie/" class="home-link">Retour à l'accueil</a>
+    </div>
+
+    <script>
+        function toggleSelection(element) {
+            element.classList.toggle("selected");
+        }
+
+        function validateMultipleAnswer(questionNumber, correctAnswers) {
+            const questionElement = event.target.parentElement;
+            const options = questionElement.querySelectorAll('.option');
+            options.forEach(option => {
+                const optionLetter = option.textContent.trim().charAt(0);
+                if (correctAnswers.includes(optionLetter)) {
+                    option.classList.add("correct");
+                } else if (option.classList.contains("selected")) {
+                    option.classList.add("incorrect");
+                }
+                option.classList.remove("selected");
+            });
+            document.getElementById(`explanation${questionNumber}`).style.display = "block";
+        }
+    </script>
+</body>
+</html>
